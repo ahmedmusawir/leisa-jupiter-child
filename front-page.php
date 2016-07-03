@@ -251,6 +251,42 @@ get_header();
 	
 </section>
 
+<section id="block-3" class="block-3">
+
+	<div class="container clearfix">
+		
+		<div class="col-sm-6 col-md-7 col-lg-7">
+
+			<h2>
+				HOLLY RILEY, BESTSELLING AUTHOR OF <span class="book-name">ALLOWING: A PORTRAIT OF FORGIVING AND LETTING LIFE LOVE YOU.</span>
+			</h2>
+
+			<i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+			
+			<h4>
+				Leisa is an inspiration to anyone within hearing distance.​ ​Her love for people makes it easy to open, discover, 
+				and trust the clarity she shares. Leisa is a heart reader… intuitively guiding everyone to their perfect path for 
+				manifesting choices.			
+			</h4>
+
+			<i class="fa fa-quote-right pull-right" aria-hidden="true"></i>
+			
+		</div>
+
+		<div class="col-sm-6 col-md-5 col-lg-5">
+			
+			<figure>
+				
+				<img class="img-responsive img-circle center-block wow zoomIn" src="/wp-content/uploads/2016/07/Best-sellingAuthorHollyRileywww.hollyriley.com_.jpg" alt=""  data-wow-duration="2s" data-wow-delay="0s">
+				
+			</figure>
+
+		</div>
+
+	</div>
+	
+</section>
+
 <section id="block-6" class="block-6">
 
 	<div class="container-fluid clearfix">
