@@ -17,7 +17,7 @@ get_header();
 ?>
 
 <!--=======================================
-=            Da Moose is Loose            =
+=            Da Moose is Loose Frontpage           =
 ========================================-->
 
 
@@ -56,46 +56,53 @@ get_header();
 
 	    <div class="download-box-container container-fluid">
 	    	
-			<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
-				<figure>
-					
-					<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/06/img-1.jpg" alt="" data-wow-duration="1s" data-wow-delay="0s">
-					
-				</figure>
-				<h4>
-					7 Ways Entrepreneurs Sabotage Their Success (and How to Stop Doing it.)
-				</h4>
-				<h4>
-					<a class="btn btn-success btn-lg" href="#">DOWNLOAD NOW</a>
-				</h4>
-			</article>
-			<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
-				<figure>
-					
-					<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/06/img-2.jpg" alt="" data-wow-duration="1s" data-wow-delay=".5s">
-					
-				</figure>
-				<h4>
-					3 Best Ways to Master your Time So It Doesn’t Master You					
+			<div class="row">
+				<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
+					<figure>
+						
+						<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/fp-block-1-img-1-with-txt.jpg" alt="" data-wow-duration="1s" data-wow-delay="0s">
+						
+					</figure>
+					<h4>
+						I am here to walk alongside you in discovering new ways of creating more wealth and abundance in your life and business.
+					</h4>
+					<h4>
+						<!-- <a class="btn btn-success btn-lg" href="#">DOWNLOAD NOW</a> -->
+					</h4>
+				</article>
+				<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
+					<figure>
+						
+						<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/fp-block-1-img-2-with-txt.jpg" alt="" data-wow-duration="1s" data-wow-delay=".5s">
+						
+					</figure>
+					<h4>
+						Moving beyond lack allows you to be present to the truth that exists in each moment.  From this way of being you become empowered.  
+					</h4>
+					<h4>
+						<!-- <a class="btn btn-success btn-lg" href="#">COMING SOON</a> -->
+					</h4>
+				</article>
+				<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
+					<figure>
+						
+						<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/fp-block-1-img-3-with-txt.jpg" alt="" data-wow-duration="1s" data-wow-delay="1s">
+						
+					</figure>
+					<h4>
+						Through exploring your greatest expression of gifts, dreams and goals, I assist you in uncovering new ways to contribute to your highest potential.
+					</h4>
+					<h4>
+						<!-- <a class="btn btn-success btn-lg" href="#">DOWNLOAD NOW</a> -->
+					</h4>
+				</article>		
+			</div>
 
-				</h4>
-				<h4>
-					<a class="btn btn-success btn-lg" href="#">COMING SOON</a>
-				</h4>
-			</article>
-			<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
-				<figure>
-					
-					<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/06/img-3.jpg" alt="" data-wow-duration="1s" data-wow-delay="1s">
-					
-				</figure>
-				<h4>
-					5 Simple Steps to Create Inner and Outer Wealth
-				</h4>
-				<h4>
-					<a class="btn btn-success btn-lg" href="#">DOWNLOAD NOW</a>
-				</h4>
-			</article>			
+			<div class="row text-center">
+					<h4>
+						<a class="btn btn-success btn-lg" href="/books/">LEARN MORE ...</a>
+					</h4>
+			</div>	
 
 	    </div>
 
@@ -162,14 +169,14 @@ get_header();
 			</article>
 			<figure>
 				
-				<img class="img-responsive img-left" src="/wp-content/uploads/2016/06/bottom-right.jpg" alt="">
+				<img class="img-responsive img-left wow zoomIn" src="/wp-content/uploads/2016/06/bottom-right.jpg" alt="" data-wow-duration="2s" data-wow-delay="0s">
 				
 			</figure>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-6 content-block">
 			<figure>
 				
-				<img class="img-responsive img-right" src="/wp-content/uploads/2016/06/top-left-950.jpg" alt="">
+				<img class="img-responsive img-right wow zoomIn" src="/wp-content/uploads/2016/07/top-left-950.jpg" alt="" data-wow-duration="2s" data-wow-delay="0s">
 				
 			</figure>
 			<article class="text-block text-right">
@@ -229,7 +236,7 @@ get_header();
 
 <section id="block-5" class="block-5">
 
-	<img class="" src="/wp-content/uploads/2016/07/Cover-Photo-2400-3.jpg" alt="">
+	<!-- <img class="" src="/wp-content/uploads/2016/07/Cover-Photo-2400-3.jpg" alt=""> -->
 
 	<div class="container">
 		<div class="col-sm-12 col-md-8 col-md-offset-4 col-lg-8 col-lg-offset-4">

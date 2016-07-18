@@ -1,0 +1,924 @@
+// $brand-primary:  #5FC5BF;
+// // $brand-primary:  #FFFC13;
+// // $brand-primary: #FF6600;
+// // $brand-primary: #FF8300;
+// // $brand-primary: lighten( #be8706, 10% );
+// $tiana-primary: #383D66;
+// $tiana-teal: #5FC5BF;
+// $tiana-gray: #242424;
+// $tiana-light-gray: #f9fbfc;
+// $tiana-red: #bb324a;
+$leisa-green: #018442;
+$roy-green: #4cd697;
+
+@import "bourbon/bourbon";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css);
+// @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700italic,400italic,700);
+// @import url(https://fonts.googleapis.com/css?family=Bevan);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300,200,100);
+// @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+// @import url(https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic);
+// @import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic);
+
+html { 
+ 
+	// display: none;
+
+}
+
+body {
+
+	// font-family: 'Muli', sans-serif;
+	font-family: 'Raleway', sans-serif !important;
+
+	h1,h2,h3,h4,h5,h6,p {
+		font-family: 'Raleway', sans-serif !important;
+
+	}
+	a {
+		text-decoration: none !important;
+	}
+	// display: none;
+}
+
+#mk-boxed-layout {
+
+	// border: 1rem solid blue;
+	z-index: 100;
+
+	.mk-header-nav-container {
+		// border: 1rem solid red;
+	}
+	.mk-header-holder {
+		// display: none;
+		.mk-header-toolbar {
+			background-color: transparent;
+
+			@media ( max-width: 1139px ) {
+				display: none;
+
+			}
+		}
+	}	
+}
+
+#header {
+	background-color: black;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+
+	// background: url("/wp-content/uploads/2016/04/Cover-Photo.jpg") no-repeat center center fixed;
+
+	//   -webkit-background-size: cover;
+
+	//   -moz-background-size: cover;
+
+	//   -o-background-size: cover;
+
+	//   background-size: cover;	
+
+
+
+	@media ( max-width: 1400px ) {
+		img.large {
+			display: none;
+		}
+		img.medium {
+			display: block;
+		}		
+	}
+	@media ( min-width: 1401px ) {
+		img.large {
+			display: block;
+		}
+		img.medium {
+			display: none;
+		}		
+	}
+
+	.header-txt-block {
+		position: absolute;
+		top: 20%;
+		left: 10%;
+		padding: 15rem;
+
+		background-color: rgba( black, .5 );
+
+		@media ( min-width: 1401px ) {
+
+			top: 5%;
+			padding: 10rem;
+		}					
+
+			
+		@media ( max-width: 1400px ) {
+
+			top: 20%;
+			padding: 10rem;
+			// border: 1rem solid red;
+		}	
+			
+		@media ( max-width: 1200px ) {
+
+			top: 15%;
+			padding: 10rem;
+		}	
+		
+		@media ( max-width: 800px ) {
+			
+			top: 6%;
+			left: 6%;
+			padding: 10rem;	
+			// border: 1rem solid red;	
+		}		
+
+		@media ( max-width: 700px ) {
+			
+			top: 1%;
+			left: 2%;
+			padding: 8rem;	
+			padding-left: 2rem;
+			padding-right: 2rem;
+			padding-top: 2rem;
+			// border: 1rem solid red;	
+		}
+
+	
+
+		.txt-content {
+			
+			h1 {
+				font-size: 5rem;
+				font-weight: 700;
+				color: $roy-green;
+			}
+			h3 {
+				font-size: 3.5rem;
+				font-weight: 600;
+				color: lighten( orange, 15% );
+			}
+			@media ( max-width: 850px ) {
+				h1 {
+					font-size: 3rem;
+				}
+				h3 {
+					font-size: 2rem;
+				}
+			}							
+
+			@media ( max-width: 500px ) {
+				
+				h1 {
+					font-size: 3rem;
+				}
+				h3 {
+					font-size: 2rem;
+				}
+			}
+			@media ( max-width: 400px ) {
+				
+				h1 {
+					font-size: 2rem;
+				}
+				h3 {
+					font-size: 1.5rem;
+				}
+			}			
+			@media ( min-width: 1750px ) {
+
+				h1 {
+					font-size: 8rem;
+				}
+				h3 {
+					font-size: 5.5rem;
+				}
+				
+			}			
+		}
+	}
+}
+
+#mk-theme-container {
+
+	.mk-header {
+    	border-bottom: 0px solid #ededed;
+	}
+}
+
+/*=======================================
+=            Home page style            =
+=======================================*/
+
+.page-id-12300 {
+
+	.mk-header-nav-container {
+		display: none;
+	}
+	.header-logo {
+		display: none;
+	}
+	.mk-header-holder {
+		display: none;
+	}
+}
+
+#block-1 {
+	background-color: black;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#block-2 {
+	// min-height: 1000px;
+	// border: 1rem solid red;
+	position: relative;
+	overflow: hidden;
+	z-index: -100;
+
+	background: url("/wp-content/uploads/2016/06/video-alternative-bg.jpg") no-repeat center center;
+
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;	
+
+	@media ( max-width: 800px ) {
+		background-image: url('/wp-content/uploads/2016/06/video-alternative-bg.jpg');
+	}  
+
+	// background-color: transparentize( lighten( $gray, 10% ), .3 );
+
+	.video-container {
+
+
+		video#second-section-video {
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -99;
+			// background: url("img/second-section.jpg") no-repeat;
+			background-size: cover;
+		}
+
+		.text-content {
+			
+			background-color: transparentize( lighten( $leisa-green, 10% ), .3 );
+
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+			margin-bottom: 2rem;
+			margin-left: 2rem;
+			margin-right: 2rem;
+
+			h3 {
+				padding-bottom: 2rem;
+				color: white;
+				font-size: 5rem;
+				font-family: 'Raleway', sans-serif !important;
+			}
+			p {
+				color: white;
+				font-size: 3.5rem;
+				font-family: 'Raleway', sans-serif !important;
+			}
+
+			@media ( max-width: 400px ) {
+				h3 {
+					font-size: 3rem;
+				}
+				p {
+					font-size: 2rem;
+				}
+			}
+		}
+
+		.download-box-container {
+
+			background-color: transparentize( lighten( white, 10% ), .2 );
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+			text-align: center;
+			color: black;
+
+
+			.download-box-1 {
+				@include transition(all 1s ease-in-out);
+				
+				&:hover {
+					margin-top: -2rem;
+				}
+			}
+
+			figure {
+				padding-bottom: 3rem;
+				min-height: 250px;
+
+			}
+			h4 {
+				font-size: 2.5rem;
+				font-weight: 400;
+				color: black;
+				font-family: 'Raleway', sans-serif !important;
+				min-height: 130px;
+			}
+
+			@media ( min-width: 768px ) and ( max-width: 991px ) {
+
+				figure {
+					padding-bottom: 3rem;
+					min-height: 50px;
+
+				}
+				h4 {
+					font-size: 2rem;
+					font-weight: 400;
+					color: black;
+					font-family: 'Raleway', sans-serif !important;
+					min-height: 150px;
+				}				
+			}
+		}
+
+	}
+}
+
+#block-3 {
+	// min-height: 500px;
+	// border: 1rem solid green;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+
+	background: url("/wp-content/uploads/2016/06/nature-bg-3-1.jpg") no-repeat center center fixed;
+
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;
+
+	@media ( max-width: 1024px ) {
+	
+		background: url("/wp-content/uploads/2016/07/nature-bg-1920x1000.jpg") no-repeat center center;
+
+	}  
+
+	
+	img {
+		width: 50%;
+		padding-top: 5rem;
+
+		@media ( max-width: 1200px ) {
+
+			margin-top: 2rem;
+		}
+
+		@media ( min-width: 500px ) and ( max-width: 767px ) {
+
+			width: 30%;
+		}
+	}
+
+
+	  h2 {
+		font-family: 'Raleway', sans-serif !important;
+		font-size: 2.5rem;
+		font-weight: 900;
+		color: black;
+		padding-bottom: 2rem;
+		
+		.book-name {
+			color: darken( $leisa-green, 5% );
+		}
+
+	  }
+
+	  h4 {
+	  	color: black;
+	  	font-size: 2.5rem;
+	  	font-weight: 400;
+		font-family: 'Raleway', sans-serif !important;
+		padding-top: 3rem;
+		padding-bottom: 1rem;
+	  }
+
+	  i {
+	  	color: darken( $leisa-green, 5% );
+	  	font-size: 3rem;
+	  	font-weight: 700;
+	  }
+
+	@media ( min-width: 768px ) and ( max-width: 991px ) {
+
+		h2 {
+			font-size: 2.5rem;
+		}
+		h4 {
+			font-size: 1.5rem;
+		}
+		i {
+			font-size: 2.5rem;
+		}
+	}
+	@media ( max-width: 400px ) {
+		h2 {
+			font-size: 1.5rem;
+		}
+		h4 {
+			font-size: 1.5rem;
+		}
+		i {
+			font-size: 1.5rem;
+		}
+	}
+
+}
+
+#block-4 {
+	// min-height: 500px;
+	// border: 1rem solid blue;
+	background-image: url('/wp-content/uploads/2016/06/block-4-bg.jpg');
+
+	.content-block {
+		margin: 0;
+		padding: 0;
+
+		.text-block {
+			text-align: center;
+			padding-left: 2rem;
+			padding-right: 2rem;
+			padding-top: 3rem;
+		}
+		.text-left {
+			padding-bottom: 3rem;
+		}
+		.text-right {
+			padding-bottom: 3rem;
+		}
+
+		img {
+			margin-top: 3rem;
+			margin-bottom: 3rem;
+		}
+
+		@media ( max-width: 767px ) {
+			img {
+				margin-top: 3rem;
+			}
+		}
+
+		@media ( min-width: 1025px ) {
+			
+			.text-block {
+
+				h2 {
+					font-size: 5rem;
+					padding-bottom: 2rem;
+				}
+				h5 {
+					font-size: 2.5rem;
+				}
+			}
+		}
+
+		@media ( min-width: 1350px ) {
+			.text-block {
+				padding-left: 5rem;
+				padding-right: 5rem;
+			}
+		}
+	}
+}
+
+#block-5 {
+	
+	// position: relative;
+	// overflow: hidden;
+	// max-height: 600px;
+		// z-index: -999;
+
+	background: url("/wp-content/uploads/2016/07/frontpage-block-4-bg-new.jpg") no-repeat center center fixed;
+
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;		
+
+	img {
+		position: fixed;
+		top: 0;
+		left: -25%;
+		// width: 100%;
+
+		@media ( max-width: 1550px ) {
+			left: -40%;
+		}
+		@media ( max-width: 1199px ) {
+			left: -50%;
+		}		
+	}
+
+	@media ( max-width: 1200px ) {
+		max-height: 802px;
+	}
+	@media ( max-width: 1024px ) {
+
+		// background: url('/wp-content/uploads/2016/07/ipad-bg-1100.jpg') no-repeat center center;
+
+	}	  
+
+	@media ( max-width: 800px ) {
+		// background: url('/wp-content/uploads/2016/07/ipad-bg.jpg') no-repeat center center;
+	}	  
+	@media ( max-width: 480px ) {
+		// background: url('/wp-content/uploads/2016/07/iphone-bg.jpg' no-repeat center center);
+	}	  
+
+	.text-block {
+		padding: 10rem;
+		background-color: rgba( black, .5 );
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+
+		@media ( max-width: 480px ) {
+			padding: 1rem;
+		}
+
+		.orange {
+			color: orange;
+		}
+		h2 {
+			font-size: 4rem;
+			font-weight: 800;
+			color: darken( $smoke, 10% );
+		}
+		h3 {
+			font-size: 3.5rem;
+			color: white;
+		}
+
+		@media ( max-width: 600px ) {
+			h2 {
+				font-size: 3rem;
+			}
+			h3 {
+				font-size: 2.5rem;
+			}
+		}
+	}
+}
+
+#block-6 {
+	// min-height: 500px;
+	// border: 1rem solid green;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+
+	background-image: url('/wp-content/uploads/2016/06/block-4-bg.jpg');
+
+
+	  h2 {
+		font-family: 'Raleway', sans-serif !important;
+		font-size: 4.5rem;
+		font-weight: 700;
+		color: $gray-lighter;
+		padding-bottom: 5rem;
+		text-align: center;
+		
+		.book-name {
+			color: orange;
+		}
+
+	  }
+	  img {
+	  	width: 60%;
+
+	  	margin-top: 2rem;
+	  }
+
+	@media ( min-width: 1250px ) {
+		h2 {
+			padding-top: 5rem;
+		}
+	}  
+	@media ( min-width: 1690px ) {
+		h2 {
+			padding-top: 15rem;
+		}
+	}  
+
+	@media ( min-width: 768px ) and ( max-width: 991px ) {
+
+		h2 {
+			font-size: 3.5rem;
+		}
+		h4 {
+			font-size: 2.5rem;
+		}
+		i {
+			font-size: 3.5rem;
+		}
+	}
+	@media ( max-width: 400px ) {
+		h2 {
+			font-size: 3rem;
+		}
+		h4 {
+			font-size: 2rem;
+		}
+		i {
+			font-size: 2.5rem;
+		}
+	}
+
+}
+
+
+
+/*=====  End of Home page style END  ======*/
+
+/*================================================
+=            Work With Me Page Styles            =
+================================================*/
+
+#work-with-me-block-1 {
+	background: url('/wp-content/uploads/2016/06/block-4-bg.jpg') repeat center center fixed;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+
+	h1.headline {
+		font-style: italic;
+		font-size: 3.5rem;
+		color: lighten( gray, 20% );
+
+		i {
+			font-size: 7rem;
+		}
+	}
+
+	h2 {
+		padding-top: 5rem;
+		padding-bottom: 3rem;
+		font-size: 3.5rem;
+		color: gray;
+
+			position: relative;
+
+
+			&:before {
+
+			  content : "";
+
+			  position: absolute;
+
+			  left    : 30%;
+
+			  bottom  : 0;
+
+			  height  : 1px;
+
+			  width   : 40%;  /* or 100px */
+
+				border-bottom: .4rem solid $leisa-green;
+
+			}		
+	}
+
+	@media ( min-width: 640px ) {
+		padding-left: 5rem;
+		padding-right: 5rem;
+	}
+	@media ( min-width: 768px ) {
+		padding-left: 8rem;
+		padding-right: 8rem;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}		
+	@media ( min-width: 1200px ) {
+		padding-left: 10rem;
+		padding-right: 10rem;
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+
+		h1.headline {
+			font-style: italic;
+			font-size: 5.5rem;
+			color: lighten( gray, 20% );
+
+			i {
+				font-size: 10rem;
+			}
+		}		
+	}	
+
+	#accordion {
+
+		padding-top: 3.5rem;
+
+		a {
+			color: lighten( gray, 20% );
+
+			&:hover, &:active, &:focus {
+				text-decoration: none;
+				color: lighten( orange, 15% );
+			}
+		}
+
+		.panel-heading {
+			border: 1rem solid lighten( gray, 30% );
+			background-image: url('/wp-content/uploads/2016/07/panel-header-bg.jpg');
+
+			h4 {
+				font-size: 3rem;
+				font-weight: 600;	
+				font-variant: small-caps;			
+			}
+		}
+
+		.panel-body {
+			.txt-block {
+				margin-top: 5rem;
+				font-size: 2rem;
+				margin-bottom: 3rem;
+
+				@media ( min-width: 1200px ) {
+					font-size: 2.5rem;
+				}
+				@media ( min-width: 1500px ) {
+					font-size: 3rem;
+					padding-left: 5rem;
+					// padding-top: 7rem;
+				}				
+			}
+		}
+	}	
+}
+
+
+#work-with-me-block-2 {
+
+	.content-wrapper {
+		background: url('/wp-content/uploads/2016/07/block1-bg-4.jpg') center center fixed;
+		text-align: center;
+		padding-top: 10rem;
+		padding-bottom: 10rem;  
+
+		h2 {
+			padding-bottom: 5rem;
+		}
+
+		#carousel-example-captions {
+
+			.carousel-indicators {
+				margin-top: 15rem;
+				top: 50%;
+			}
+			.carousel-control.left {
+				background-image: none !important;
+			}
+			.carousel-control.right {
+				background-image: none !important;
+			}
+
+			.item {
+				img {
+					width: 10%;
+				}
+				i {
+					font-size: 4rem;
+					color: lighten( $gray-light, 10% );
+				}				
+			}
+			
+		}
+	}
+
+}
+
+/*=====  End of Work With Me Page Styles  ======*/
+
+
+
+/*=====================================
+=            Footer Styles            =
+=====================================*/
+
+#mk-footer {
+
+	// border: 1rem solid red;
+	min-height: 500px;
+	text-align: center;
+
+	background: url("/wp-content/uploads/2016/06/footer-bg-1-1.jpg") no-repeat center center;
+
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;	
+
+	  /*----------  Footer Logo  ----------*/
+	  #footer-logo {
+	  	padding-top: 5rem;
+	  }
+
+	  /*----------  Footer Menu  ----------*/
+	  #menu-main-2 {
+
+	  	padding-top: 3rem;
+	  	padding-bottom: 3rem;
+
+	  	li {
+	  		display: inline-block;
+
+	  		a {
+	  			font-family: 'Raleway', sans-serif !important;
+	  			font-weight: 700;
+	  			font-size: 2.8rem;
+	  			text-transform: uppercase;
+	  			padding-right: 2rem;
+	  			color: lighten( $leisa-green, 10% );
+
+	  			&:hover {
+	  				text-decoration: none;
+	  				color: orange;
+	  			}
+	  		}
+	  	}
+	  }
+
+	  /*----------  Footer Social  ----------*/
+	  .footer-social {
+	  	li {
+	  		display: inline-block;
+	  		height: 80px;
+	  		width: 80px;
+	  		border-radius: 90%;
+	  		background-color: black;
+
+	  		i {
+	  			color: lighten( #61973c, 15% );
+	  			padding-right: 2rem;	
+	  			padding-top: 2rem;
+	  			padding-left: 1.5rem;
+
+	  			&:hover {
+	  				color: darken( orange, 0% );
+	  			}
+	  		}
+	  	}
+	  }
+
+	  /*----------  Copyright  ----------*/
+	  #copyright {
+	  	color: $leisa-green;
+	  }
+}
+
+/*=====  End of Footer Styles  ======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
