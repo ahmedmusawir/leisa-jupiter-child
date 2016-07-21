@@ -5937,59 +5937,61 @@ body {
       #mk-boxed-layout .mk-header-holder .mk-header-toolbar {
         display: none; } }
 
-#header .header-txt-block {
-  background-color: rgba(102, 66, 0, 0.7); }
-  @media (min-width: 1024px) {
-    #header .header-txt-block {
-      min-height: 700px; } }
-  @media (min-width: 1401px) {
-    #header .header-txt-block {
-      padding: 10rem; } }
-  @media (max-width: 1400px) {
-    #header .header-txt-block {
-      padding: 10rem; } }
-  @media (max-width: 700px) {
-    #header .header-txt-block {
-      top: 1%;
-      left: 2%;
-      padding: 8rem;
-      padding-left: 2rem;
-      padding-right: 2rem;
-      padding-top: 2rem; } }
+#header .header-txt-block .text-block-wrapper {
+  background-color: rgba(52, 52, 52, 0.7);
+  padding: 5rem;
+  padding-right: 0; }
+@media (min-width: 1024px) {
+  #header .header-txt-block {
+    min-height: 700px; } }
+@media (min-width: 1401px) {
+  #header .header-txt-block {
+    padding: 10rem; } }
+@media (max-width: 1400px) {
+  #header .header-txt-block {
+    padding-top: 10rem; } }
+@media (max-width: 700px) {
+  #header .header-txt-block {
+    top: 1%;
+    left: 2%;
+    padding: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem; } }
+#header .header-txt-block .txt-content h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #4cd697; }
+#header .header-txt-block .txt-content h3 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #ffc04d; }
+@media (max-width: 850px) {
   #header .header-txt-block .txt-content h1 {
-    font-size: 5rem;
-    font-weight: 700;
-    color: #4cd697; }
+    font-size: 3rem; }
   #header .header-txt-block .txt-content h3 {
-    font-size: 3.5rem;
-    font-weight: 600;
-    color: #ffc04d; }
-  @media (max-width: 850px) {
-    #header .header-txt-block .txt-content h1 {
-      font-size: 3rem; }
-    #header .header-txt-block .txt-content h3 {
-      font-size: 2rem; } }
-  @media (max-width: 500px) {
-    #header .header-txt-block .txt-content h1 {
-      font-size: 3rem; }
-    #header .header-txt-block .txt-content h3 {
-      font-size: 2rem; } }
-  @media (max-width: 400px) {
-    #header .header-txt-block .txt-content h1 {
-      font-size: 2rem; }
-    #header .header-txt-block .txt-content h3 {
-      font-size: 1.5rem; } }
-  @media (min-width: 1024px) {
-    #header .header-txt-block .txt-content h1 {
-      font-size: 5rem;
-      padding-top: 7rem; }
-    #header .header-txt-block .txt-content h3 {
-      font-size: 3.5rem; } }
-  @media (min-width: 1750px) {
-    #header .header-txt-block .txt-content h1 {
-      font-size: 8rem; }
-    #header .header-txt-block .txt-content h3 {
-      font-size: 5.5rem; } }
+    font-size: 2rem; } }
+@media (max-width: 500px) {
+  #header .header-txt-block .txt-content h1 {
+    font-size: 3rem; }
+  #header .header-txt-block .txt-content h3 {
+    font-size: 2rem; } }
+@media (max-width: 400px) {
+  #header .header-txt-block .txt-content h1 {
+    font-size: 2rem; }
+  #header .header-txt-block .txt-content h3 {
+    font-size: 1.5rem; } }
+@media (min-width: 850px) {
+  #header .header-txt-block .txt-content h1 {
+    font-size: 4rem;
+    padding-top: 4rem; }
+  #header .header-txt-block .txt-content h3 {
+    font-size: 3rem; } }
+@media (min-width: 1750px) {
+  #header .header-txt-block .txt-content h1 {
+    font-size: 5rem; }
+  #header .header-txt-block .txt-content h3 {
+    font-size: 4rem; } }
 
 #mk-theme-container .mk-header {
   border-bottom: 0px solid #ededed; }
@@ -6073,7 +6075,7 @@ body {
       padding-bottom: 3rem;
       min-height: 250px; }
     #block-2 .video-container .download-box-container h4 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: 400;
       color: black;
       font-family: 'Raleway', sans-serif !important;
@@ -6374,8 +6376,8 @@ body {
       background: url("/wp-content/uploads/2016/06/video-alternative-bg.jpg") no-repeat center center; } }
   #speaker-page-block-1 .content-wrapper {
     background-color: rgba(166, 166, 166, 0.5);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     padding-left: 2rem;
     padding-right: 2rem; }
   #speaker-page-block-1 .headline {
@@ -6384,9 +6386,9 @@ body {
     #speaker-page-block-1 .headline i {
       font-size: 7rem; }
     #speaker-page-block-1 .headline .title {
-      font-size: 4rem; }
-    #speaker-page-block-1 .headline .details {
       font-size: 3rem; }
+    #speaker-page-block-1 .headline .details {
+      font-size: 2rem; }
   #speaker-page-block-1 h2 {
     padding-top: 5rem;
     padding-bottom: 3rem;
@@ -6480,7 +6482,7 @@ body {
     #speaker-page-block-3 .headline i {
       font-size: 7rem; }
     #speaker-page-block-3 .headline .title {
-      font-size: 4rem; }
+      font-size: 3rem; }
     #speaker-page-block-3 .headline .details {
       font-size: 2rem; }
     #speaker-page-block-3 .headline .youtube-video-holder {
@@ -6558,6 +6560,91 @@ body {
     font-size: 2rem; }
 
 /*=====  End of Speaker Page Styles  ======*/
+/*================================================
+=            Book Page Styles            =
+================================================*/
+#book-page-block-1 {
+  background: url("/wp-content/uploads/2016/06/video-alternative-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  @media (max-width: 800px) {
+    #book-page-block-1 {
+      background: url("/wp-content/uploads/2016/06/video-alternative-bg.jpg") no-repeat center center; } }
+  #book-page-block-1 .content-wrapper {
+    background-color: rgba(166, 166, 166, 0.5);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  #book-page-block-1 .headline {
+    font-style: italic;
+    color: #b3b3b3; }
+    #book-page-block-1 .headline i {
+      font-size: 7rem; }
+    #book-page-block-1 .headline .title {
+      font-size: 3rem; }
+    #book-page-block-1 .headline .details {
+      font-size: 2rem; }
+  #book-page-block-1 h2 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: gray;
+    position: relative; }
+    #book-page-block-1 h2:before {
+      content: "";
+      position: absolute;
+      left: 30%;
+      bottom: 0;
+      height: 1px;
+      width: 40%;
+      /* or 100px */
+      border-bottom: 0.4rem solid #018442; }
+
+#book-page-block-2 {
+  background: url("/wp-content/uploads/2016/06/block-4-bg.jpg") repeat center center fixed;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+  #book-page-block-2 .download-box-container {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: black; }
+    #book-page-block-2 .download-box-container .second-row {
+      margin-top: 5rem; }
+    #book-page-block-2 .download-box-container .download-box-1 {
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out; }
+      #book-page-block-2 .download-box-container .download-box-1:hover {
+        margin-top: -2rem; }
+    #book-page-block-2 .download-box-container figure {
+      padding-bottom: 3rem;
+      min-height: 250px; }
+      #book-page-block-2 .download-box-container figure img {
+        width: 50%; }
+    #book-page-block-2 .download-box-container h2 {
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: #018442;
+      font-family: 'Raleway', sans-serif !important;
+      min-height: 130px; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      #book-page-block-2 .download-box-container figure {
+        padding-bottom: 3rem;
+        min-height: 50px; }
+      #book-page-block-2 .download-box-container h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        color: #018442;
+        font-family: 'Raleway', sans-serif !important;
+        min-height: 120px; } }
+
+/*=====  End of Book Page Styles  ======*/
 /*=====================================
 =            Footer Styles            =
 =====================================*/

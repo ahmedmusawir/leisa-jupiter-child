@@ -26,7 +26,7 @@ get_header();
 	<figure class="content-wrapper">
 
 		<div class="headline text-center wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-		<i class="fa fa-stack-overflow" aria-hidden="true"></i>
+		<!-- <i class="fa fa-stack-overflow" aria-hidden="true"></i> -->
 			<h1 class="title">Leisa Peterson, MBA, CFP®</h1>
 			<h1 class="details">
 				Motivational speaker, business EFT expert, wealth coach, <br>
@@ -63,14 +63,14 @@ get_header();
 			</article>
 			<figure>
 				
-				<img class="img-responsive img-left wow zoomIn" src="/wp-content/uploads/2016/07/speaker-block-2-img-1-overlay-2-1.jpg" alt="" data-wow-duration="2s" data-wow-delay="0s">
+				<img class="img-responsive center-block img-left wow zoomIn" src="/wp-content/uploads/2016/07/speaker-block-2-img-1-overlay.png" alt="" data-wow-duration="2s" data-wow-delay="0s">
 				
 			</figure>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-6 content-block">
 			<figure>
 				
-				<img class="img-responsive img-right wow zoomIn" src="/wp-content/uploads/2016/07/speaker-block-2-img-2-overlay-1.jpg" alt="" data-wow-duration="2s" data-wow-delay="0s">
+				<img class="img-responsive center-block img-right wow zoomIn" src="/wp-content/uploads/2016/07/speaker-block-2-img-3.png" alt="" data-wow-duration="2s" data-wow-delay="0s">
 				
 			</figure>
 			<article class="text-block text-right">
@@ -107,9 +107,8 @@ get_header();
 		
 		<div class="headline text-center container"><i class="fa fa-rss" aria-hidden="true"></i>
 
-			<h1 class="title">GOT GUEST?</h1>
+			<h1 class="title">Looking for a compelling podcast or radio show guest for your show?</h1>
 			<h1 class="details">
-				Are you a PODCAST OR RADIO SHOW HOST looking for compelling guests who will keep your audience engaged? 
 				As a podcaster myself I understand that strong and prominent guests are essential to producing some really 
 				engaging content for your listeners.  Take a listen to what David Ralph shares about interviewing me for 
 				his highly rated podcast, Join Up Dots (Episodes 349 and 505)

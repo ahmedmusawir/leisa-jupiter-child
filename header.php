@@ -36,17 +36,21 @@
 				}	
 			</style>	
 
-			<section class="header-txt-block">
-				
-				<article class="txt-content">
-					<h1>Want to Create the <br>
-					 Business of Your <br>
-					 Dreams?</h1>
+			<section class="header-txt-block container-fluid">
 
-					 <h3>If so, I will show you how ...</h3>
-					 <h2><a class="btn btn-success btn-lg" href="http://www.wealthclinic.com/wealth-flower-opt-in/" target="_blank">FIND OUT MORE</a></h2>
+				<div class="text-block-wrapper col-sm-8 col-md-6 col-lg-6">
+					
+					<article class="txt-content">
+						<h1>Want to Create the <br>
+						 Business of Your <br>
+						 Dreams?</h1>
 
-				</article>
+						 <h3>If so, I will show you how ...</h3>
+						 <h2><a class="btn btn-success btn-lg" href="http://www.wealthclinic.com/wealth-flower-opt-in/" target="_blank">FIND OUT MORE</a></h2>
+
+					</article>
+
+				</div>
 
 			</section>
 			
@@ -56,7 +60,7 @@
 				@media ( min-width: 1024px ) and ( max-width: 1120px ) {
 					#header {
 
-						min-height: 600px ;
+						/*min-height: 600px ;*/
 					}
 				}
 			</style>

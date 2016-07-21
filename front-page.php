@@ -59,42 +59,36 @@ get_header();
 			<div class="row">
 				<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
 					<figure>
-						
-						<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/fp-block-1-img-1-with-txt.jpg" alt="" data-wow-duration="1s" data-wow-delay="0s">
-						
+						<a class="" href="/books/">
+							<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/fp-block-1-img-1-with-txt.jpg" alt="" data-wow-duration="1s" data-wow-delay="0s">
+						</a>
 					</figure>
 					<h4>
 						I am here to walk alongside you in discovering new ways of creating more wealth and abundance in your life and business.
 					</h4>
-					<h4>
-						<!-- <a class="btn btn-success btn-lg" href="#">DOWNLOAD NOW</a> -->
-					</h4>
+					
 				</article>
 				<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
 					<figure>
-						
-						<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/fp-block-1-img-2-with-txt.jpg" alt="" data-wow-duration="1s" data-wow-delay=".5s">
-						
+						<a class="" href="/books/">
+							<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/fp-block-1-img-2-with-txt.jpg" alt="" data-wow-duration="1s" data-wow-delay=".5s">
+						</a>
 					</figure>
 					<h4>
 						Moving beyond lack allows you to be present to the truth that exists in each moment.  From this way of being you become empowered.  
 					</h4>
-					<h4>
-						<!-- <a class="btn btn-success btn-lg" href="#">COMING SOON</a> -->
-					</h4>
+					
 				</article>
 				<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
 					<figure>
-						
-						<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/fp-block-1-img-3-with-txt.jpg" alt="" data-wow-duration="1s" data-wow-delay="1s">
-						
+						<a class="" href="/books/">
+							<img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/fp-block-1-img-3-with-txt.jpg" alt="" data-wow-duration="1s" data-wow-delay="1s">
+						</a>
 					</figure>
 					<h4>
 						Through exploring your greatest expression of gifts, dreams and goals, I assist you in uncovering new ways to contribute to your highest potential.
 					</h4>
-					<h4>
-						<!-- <a class="btn btn-success btn-lg" href="#">DOWNLOAD NOW</a> -->
-					</h4>
+					
 				</article>		
 			</div>
 
@@ -136,7 +130,7 @@ get_header();
 			
 			<figure>
 				
-				<img class="img-responsive img-circle center-block wow zoomIn" src="/wp-content/uploads/2016/04/T-Harv.jpg" alt=""  data-wow-duration="2s" data-wow-delay="0s">
+				<img class="img-responsive img-circle center-block zoomIn" src="/wp-content/uploads/2016/04/T-Harv.jpg" alt=""  data-wow-duration="2s" data-wow-delay="0s">
 				
 			</figure>
 
@@ -208,7 +202,7 @@ get_header();
 			
 			<figure>
 				
-				<img class="img-responsive img-circle center-block wow zoomIn" src="/wp-content/uploads/2016/04/Bruce-Van-Horn-2.png" alt=""  data-wow-duration="2s" data-wow-delay="0s">
+				<img class="img-responsive img-circle center-block zoomIn" src="/wp-content/uploads/2016/04/Bruce-Van-Horn-2.png" alt=""  data-wow-duration="2s" data-wow-delay="0s">
 				
 			</figure>
 
@@ -284,7 +278,7 @@ get_header();
 			
 			<figure>
 				
-				<img class="img-responsive img-circle center-block wow zoomIn" src="/wp-content/uploads/2016/07/Best-sellingAuthorHollyRileywww.hollyriley.com_.jpg" alt=""  data-wow-duration="2s" data-wow-delay="0s">
+				<img class="img-responsive img-circle center-block zoomIn" src="/wp-content/uploads/2016/07/Best-sellingAuthorHollyRileywww.hollyriley.com_.jpg" alt=""  data-wow-duration="2s" data-wow-delay="0s">
 				
 			</figure>
 
