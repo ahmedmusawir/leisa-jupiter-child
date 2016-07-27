@@ -22,17 +22,17 @@ get_header();
 
 
 <section id="block-1" class="block-1">
-	<img class="img-responsive" src="/wp-content/uploads/2016/06/BLOCK-1.jpg" alt="">
+	<img class="img-responsive" src="http://www.leisapeterson.com/wp-content/uploads/2016/07/BLOCK-1.jpg" alt="">
 </section>
 
 <section id="block-2" class="block-2">
 
  <figure class="video-container">
 
-    <video autoplay loop muted poster="/wp-content/uploads/2016/06/video-alternative-bg" id="second-section-video">
+    <!-- <video autoplay loop muted poster="/wp-content/uploads/2016/06/video-alternative-bg" id="second-section-video">
       <source src="/wp-content/uploads/2016/06/video-20.webm" type="video/webm">
       <source src="/wp-content/uploads/2016/06/video-20.mp4" type="video/mp4">
-    </video>
+    </video> -->
 
     <!-- <h3>Featured Poems</h3> -->
 
@@ -40,7 +40,7 @@ get_header();
 	    <div class="text-content text-center featured-poem-1">
 
 			<h3 style="text-align: center;">I 
-			<?php echo do_shortcode( '[mk_font_icons icon="icon-heart" color="#009E11" size="x-large" padding_horizental="4" padding_vertical="4" circle="false" align="none"] ' ); ?>
+			<i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
 
 			<em>Entrepreneurs</em></h3>
 			<p style="text-align: center;">You are in the right place <br>
@@ -92,12 +92,12 @@ get_header();
 				</article>		
 			</div>
 
-			<div class="row text-center">
+	<!-- 		<div class="row text-center">
 					<h4>
 						<a class="btn btn-success btn-lg" href="/books/">LEARN MORE ...</a>
 					</h4>
 			</div>	
-
+ -->
 	    </div>
 
   
@@ -163,14 +163,14 @@ get_header();
 			</article>
 			<figure>
 				
-				<img class="img-responsive img-left wow zoomIn" src="/wp-content/uploads/2016/06/bottom-right.jpg" alt="" data-wow-duration="2s" data-wow-delay="0s">
+				<img class="img-responsive img-left zoomIn" src="/wp-content/uploads/2016/07/bottom-right.jpg" alt="" data-wow-duration="2s" data-wow-delay="0s">
 				
 			</figure>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-6 content-block">
 			<figure>
 				
-				<img class="img-responsive img-right wow zoomIn" src="/wp-content/uploads/2016/07/top-left-950.jpg" alt="" data-wow-duration="2s" data-wow-delay="0s">
+				<img class="img-responsive img-right zoomIn" src="/wp-content/uploads/2016/07/top-left-950.jpg" alt="" data-wow-duration="2s" data-wow-delay="0s">
 				
 			</figure>
 			<article class="text-block text-right">
@@ -238,12 +238,19 @@ get_header();
 			<article class="text-block">
 				<h2>
 
-					Hi,  I ’m Leisa Peterson, Host Of <span class="orange">The Art Of Mindful Wealth</span> Podcast, Business Coach And Blogger About 
-					<span class="orange">Money And Mindfulness</span> For The Huffington Post.
+					Hi. I'm <span class="orange">Leisa Peterson</span>, Entrepreneur <span class="orange">Coach</span>, Wealth <span class="orange">Mentor</span>, Mindfulness 
+					<span class="orange">Teacher</span>, Best Selling <span class="orange">Author</span> and Host of the <span class="orange">Art of Mindful Wealth</span> podcast.  
+
+
+
+					<!-- Hi,  I ’m Leisa Peterson, Host Of <span class="orange">The Art Of Mindful Wealth</span> Podcast, Business Coach And Blogger About  -->
+					<!-- <span class="orange">Money And Mindfulness</span> For The Huffington Post. -->
 
 				</h2>
 				<h3>
-					I Am Living The <span class="orange">BUSINESS</span> and <span class="orange">LIFE</span> I Share With Others
+					<!-- I Am Living The <span class="orange">BUSINESS</span> and <span class="orange">LIFE</span> I Share With Others -->
+					I'm really <span class="orange">glad</span> you're here.
+
 				</h3>
 			</article>
 

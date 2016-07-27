@@ -1,15 +1,3 @@
-<section id="footer-contact-btn-block">
-    <div class="footer-wrapper">
-         <h2>
-            <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myFooterModal">
-              CONTACT LEISA PETERSON
-            </button>               
-         </h2>    
-     </div>
-</section>
-
-
-
 <?php
 global $mk_options;
 

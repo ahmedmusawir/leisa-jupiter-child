@@ -5928,14 +5928,70 @@ body {
   body a {
     text-decoration: none !important; }
 
-#mk-boxed-layout {
-  z-index: 100; }
-  #mk-boxed-layout .mk-header-holder .mk-header-toolbar {
-    background-color: transparent;
-    margin-top: -3px; }
-    @media (max-width: 1139px) {
-      #mk-boxed-layout .mk-header-holder .mk-header-toolbar {
-        display: none; } }
+#myModal .modal-content {
+  background-image: url("/wp-content/uploads/2016/07/block-3-bg-800.jpg"); }
+#myModal .modal-header {
+  padding: 15px;
+  border-bottom: 0px solid #e5e5e5;
+  background: #015129;
+  color: white; }
+#myModal .modal-footer {
+  padding: 15px;
+  text-align: center;
+  border-top: 0px solid #e5e5e5; }
+  #myModal .modal-footer .btn {
+    background-color: transparent; }
+#myModal .modal-body {
+  background: rgba(26, 111, 72, 0.7); }
+  #myModal .modal-body .img-holder img {
+    width: 30%; }
+  #myModal .modal-body .popup-text {
+    color: white; }
+    #myModal .modal-body .popup-text h4 {
+      color: white; }
+    #myModal .modal-body .popup-text p {
+      color: white;
+      text-align: center; }
+    #myModal .modal-body .popup-text li {
+      color: white;
+      list-style-type: square;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 600; }
+    #myModal .modal-body .popup-text .form-container .infusion-submit #modal-submit {
+      background-color: #001f0f;
+      border: 2px solid #018442;
+      color: white; }
+
+#myFooterModal {
+  color: white; }
+  #myFooterModal .modal-content {
+    background-image: url("/wp-content/uploads/2016/07/block-3-bg-800.jpg"); }
+    #myFooterModal .modal-content .wpcf7-form .wpcf7-textarea {
+      width: 100% !important; }
+  #myFooterModal .modal-header {
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5;
+    background: #015129;
+    color: white; }
+  #myFooterModal .modal-footer {
+    padding: 15px;
+    text-align: center;
+    border-top: 0px solid #e5e5e5;
+    background: #015129; }
+    #myFooterModal .modal-footer .btn {
+      background-color: transparent; }
+  #myFooterModal .modal-body {
+    background: rgba(26, 111, 72, 0.7); }
+    #myFooterModal .modal-body p {
+      color: white; }
+
+#mk-boxed-layout .mk-header-holder .mk-header-toolbar {
+  background-color: transparent;
+  margin-top: -3px; }
+  @media (max-width: 1139px) {
+    #mk-boxed-layout .mk-header-holder .mk-header-toolbar {
+      display: none; } }
 
 #header .header-txt-block .text-block-wrapper {
   background-color: rgba(52, 52, 52, 0.7);
@@ -5950,11 +6006,10 @@ body {
 @media (max-width: 1400px) {
   #header .header-txt-block {
     padding-top: 10rem; } }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   #header .header-txt-block {
     top: 1%;
     left: 2%;
-    padding: 8rem;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem; } }
@@ -5987,6 +6042,15 @@ body {
     padding-top: 4rem; }
   #header .header-txt-block .txt-content h3 {
     font-size: 3rem; } }
+@media (min-width: 1024px) {
+  #header .header-txt-block .txt-content {
+    padding-left: 5rem; } }
+@media (min-width: 1280px) {
+  #header .header-txt-block .txt-content {
+    padding-left: 7rem; } }
+@media (min-width: 1550px) {
+  #header .header-txt-block .txt-content {
+    padding-left: 9rem; } }
 @media (min-width: 1750px) {
   #header .header-txt-block .txt-content h1 {
     font-size: 5rem; }
@@ -6012,39 +6076,26 @@ body {
   padding-bottom: 2rem; }
 
 #block-2 {
-  position: relative;
-  overflow: hidden;
-  z-index: -100;
-  background: url("/wp-content/uploads/2016/06/video-alternative-bg.jpg") no-repeat center center;
+  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-3-bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  @media (max-width: 1024px) {
+    #block-2 {
+      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-3-bg.jpg"); } }
   @media (max-width: 800px) {
     #block-2 {
-      background-image: url("/wp-content/uploads/2016/06/video-alternative-bg.jpg"); } }
-  #block-2 .video-container video#second-section-video {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -99;
-    background-size: cover; }
+      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-3-bg-800.jpg"); } }
   #block-2 .video-container .btn.btn-success {
     padding-top: 3rem;
     padding-bottom: 3rem;
     width: 50%; }
   #block-2 .video-container .text-content {
-    background-color: rgba(1, 183, 91, 0.7);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem; }
+    background-color: rgba(1, 157, 79, 0.6);
+    border: 1px solid #01b75b;
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
     #block-2 .video-container .text-content h3 {
       padding-bottom: 2rem;
       color: white;
@@ -6094,14 +6145,7 @@ body {
 #block-3 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background: url("/wp-content/uploads/2016/06/nature-bg-3-1.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  @media (max-width: 1024px) {
-    #block-3 {
-      background: url("/wp-content/uploads/2016/07/nature-bg-1920x1000.jpg") no-repeat center center; } }
+  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/background-transparent-awsome.jpg") repeat center center fixed; }
   #block-3 img {
     width: 50%;
     padding-top: 5rem; }
@@ -6195,6 +6239,9 @@ body {
   @media (max-width: 1200px) {
     #block-5 {
       max-height: 802px; } }
+  @media (max-width: 1024px) {
+    #block-5 {
+      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/Cover-Photo-1920-1.jpg") no-repeat center center; } }
   #block-5 .text-block {
     padding: 10rem;
     padding-bottom: 8rem;
@@ -6648,10 +6695,23 @@ body {
 /*=====================================
 =            Footer Styles            =
 =====================================*/
+#footer-contact-btn-block {
+  text-align: center;
+  background: url("/wp-content/uploads/2016/07/grid-dark.jpg") repeat center center fixed; }
+  #footer-contact-btn-block .footer-wrapper {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgba(90, 90, 90, 0.2); }
+    #footer-contact-btn-block .footer-wrapper .btn {
+      background-color: transparent;
+      border: 4px solid #015129; }
+      #footer-contact-btn-block .footer-wrapper .btn:hover {
+        background-color: #015129; }
+
 #mk-footer {
   min-height: 500px;
   text-align: center;
-  background: url("/wp-content/uploads/2016/06/footer-bg-1-1.jpg") no-repeat center center;
+  background: url("/wp-content/uploads/2016/07/footer-bg-1.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

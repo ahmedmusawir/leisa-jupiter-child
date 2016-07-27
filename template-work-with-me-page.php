@@ -99,11 +99,7 @@ get_header();
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						I help high achieving entrepreneurs committed to creating profitable and thriving businesses. 
-						My greatest joy is helping clients break through the blocks that keep you from getting more of 
-						what you want including more joy, time and freedom. After barely coming up for air while earning 
-						my first million, I learned that true success is measured in more than money — it also includes 
-						having freedom with your time and living authentically doing work you enjoy.
+						As a life coach for entrepreneurs, I am here to walk alongside you in discovering new ways to create more abundance in your life and business.  Via phone, video calls and email, we'll work together to create a 90 day plan that ensures you are achieving your visionary goals and beyond.						
 					</article>	
 				</div>	
 				<div class="col-md-6 col-lg-6">
@@ -151,7 +147,7 @@ get_header();
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						How does it work? We’ll go wherever we need to go in our sessions, whether that is addressing 
+						We’ll go wherever we need to go in our sessions, whether that is addressing 
 						a time management issue, a real-time struggle or working through a new long-term vision. My goal 
 						is to show you how to lead from context, which means listening to your inner voice, the people on 
 						your team and the information around you. You’ll have unlimited email access to me so we can work 

@@ -14,7 +14,12 @@ $roy-green: #4cd697;
 @import "bourbon/bourbon";
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css);
+// @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700italic,400italic,700);
+// @import url(https://fonts.googleapis.com/css?family=Bevan);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300,200,100);
+// @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+// @import url(https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic);
+// @import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic);
 
 html { 
  
@@ -337,10 +342,6 @@ body {
 
 	  background-size: cover;	
 
-	@media ( max-width: 1024px ) {
-		background: url('http://www.leisapeterson.com/wp-content/uploads/2016/07/block-3-bg.jpg');
-	}
-
 	@media ( max-width: 800px ) {
 		background: url('http://www.leisapeterson.com/wp-content/uploads/2016/07/block-3-bg-800.jpg');
 	}  
@@ -373,7 +374,7 @@ body {
 
 		.text-content {
 			
-			background-color: transparentize( lighten( $leisa-green, 5% ), .4 );
+			background-color: transparentize( lighten( $leisa-green, 10% ), .4 );
 			border: 1px solid lighten( $leisa-green, 10% );
 
 			padding-top: 3rem;
@@ -457,21 +458,19 @@ body {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 
-	background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/background-transparent-awsome.jpg") repeat center center fixed;
-	// background: url("/wp-content/uploads/2016/06/nature-bg-3-1.jpg") repeat center center fixed;
+	background: url("/wp-content/uploads/2016/06/nature-bg-3-1.jpg") no-repeat center center fixed;
 
-	  // -webkit-background-size: cover;
+	  -webkit-background-size: cover;
 
-	  // -moz-background-size: cover;
+	  -moz-background-size: cover;
 
-	  // -o-background-size: cover;
+	  -o-background-size: cover;
 
-	  // background-size: cover;
+	  background-size: cover;
 
 	@media ( max-width: 1024px ) {
 	
-		// background: url("/wp-content/uploads/2016/07/nature-bg-1920x1000.jpg") no-repeat center center;
-		// background: url("/wp-content/uploads/2016/07/nature-bg-1920x1000.jpg") no-repeat center center;
+		background: url("/wp-content/uploads/2016/07/nature-bg-1920x1000.jpg") no-repeat center center;
 
 	}  
 
@@ -638,7 +637,7 @@ body {
 	}
 	@media ( max-width: 1024px ) {
 
-		background: url('http://www.leisapeterson.com/wp-content/uploads/2016/07/Cover-Photo-1920-1.jpg') no-repeat center center;
+		// background: url('/wp-content/uploads/2016/07/ipad-bg-1100.jpg') no-repeat center center;
 
 	}	  
 

@@ -26,11 +26,13 @@ get_header();
 	<figure class="content-wrapper">
 
 		<div class="headline text-center wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-		<!-- <i class="fa fa-stack-overflow" aria-hidden="true"></i> -->
-			<h1 class="title">Leisa Peterson, MBA, CFP®</h1>
+			<h1 class="title">Leisa Peterson, MBA, CFP<small style="color: lightgray;">®</small></h1>
 			<h1 class="details">
-				Motivational speaker, business EFT expert, wealth coach, <br>
-				marketing strategist, podcaster, author, and retreat leader
+
+				Motivational Speaker, Best Selling Author, Wealth Coach, Podcaster, Retreat Leader
+
+				<!-- Motivational speaker, business EFT expert, wealth coach, <br> -->
+				<!-- marketing strategist, podcaster, author, and retreat leader -->
 			</h1>
 
 		</div>
