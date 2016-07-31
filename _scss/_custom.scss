@@ -40,7 +40,6 @@ body {
 
 #myModal {
 
-
 	.modal-content {
 		background-image: url('/wp-content/uploads/2016/07/block-3-bg-800.jpg');	
 		// http://leisa-peterson.devhtmlfive.com/wp-content/uploads/2016/07/block-3-bg-800.jpg
@@ -293,6 +292,24 @@ body {
 
 	.mk-header {
     	border-bottom: 0px solid #ededed;
+	}
+
+	#mk-header-1 {
+		// border: 1rem solid red;
+
+		#menu-main {
+			// border: 1rem solid blue;
+
+			li {
+					
+				a {
+					@media ( min-width: 1139px ) and ( max-width: 1300px ) {
+						font-size: 1.5rem !important;
+						// color: red !important;
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -1458,6 +1475,265 @@ body {
 
 
 /*=====  End of Book Page Styles  ======*/
+
+
+/*================================================
+=            Retreat Page Styles            =
+================================================*/
+
+#book-retreat-block-1 {
+	// background: url('/wp-content/uploads/2016/06/block-4-bg.jpg') repeat center center fixed;
+	background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-1-bg.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;	
+
+	  @media ( max-width: 1024px ) {
+
+		background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-1-bg-mobile.jpg") no-repeat center center;
+
+	  }	
+
+	.content-wrapper {
+
+		// background-color: rgba( lighten( gray, 15% ), .5 );
+		padding-top: 8rem;
+		padding-bottom: 5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;		
+	}
+
+	.headline {
+		font-style: italic;
+		// font-size: 3.5rem;
+		color: darken( gray, 10% );
+
+		i {
+			font-size: 7rem;
+			color: lighten( gray, 15% );
+		}
+
+		.title {
+			font-size: 5rem;
+			font-style: none;
+		}
+		.details {
+			font-size: 3rem;
+		}
+	}
+
+	h2 {
+		font-size: 3rem;
+		color: darken( gray, 5% );
+	}
+
+	h5 {
+		padding-top: 3rem;
+		font-weight: 500;
+		font-size: 2rem;
+	}
+
+}
+
+#book-retreat-block-2 {
+
+	background: url('http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg') repeat center center fixed;
+
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+
+	.quote-content {
+		color: darken( gray, 10% );
+
+		i {
+			color: lighten( gray, 10% );
+		}
+		cite {
+			font-size: 2.5rem;
+			padding-top: 3rem;
+		}
+	}
+
+	
+}
+#book-retreat-block-3 {
+	// background: url('/wp-content/uploads/2016/06/block-4-bg.jpg') repeat center center fixed;
+	background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-3-bg-1.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;	
+
+	  @media ( max-width: 1024px ) {
+
+		background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-3-bg-mobile.jpg") no-repeat center center;
+
+	  }	
+
+	.content-wrapper {
+
+		background-color: rgba( lighten( gray, 20% ), .8 );
+		padding-top: 8rem;
+		padding-bottom: 5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;		
+	}
+
+	#workshop {
+		padding-top: 5rem;
+
+		h2 {
+			font-size: 2.7rem;
+			text-align: left;
+			padding-left: 3rem;
+			i {
+				font-size: 2.5rem;
+			}
+		}
+	}
+
+	.headline {
+		// font-style: italic;
+		// font-size: 3.5rem;
+		// color: darken( gray, 10% );
+		color: white;
+
+		i {
+			font-size: 7rem;
+			color: lighten( gray, 45% );
+		}
+
+		.title {
+			font-size: 3.5rem;
+			font-style: none;
+		}
+		.details {
+			font-size: 3rem;
+		}
+	}
+
+	h2 {
+		font-size: 3rem;
+		color: white;
+	}
+
+	h5 {
+		padding-top: 3rem;
+		font-weight: 500;
+		font-size: 2rem;
+	}
+
+}
+
+#book-retreat-block-4 {
+	// background: url('/wp-content/uploads/2016/06/block-4-bg.jpg') repeat center center fixed;
+	background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/bg-1.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;	
+
+	  @media ( max-width: 1024px ) {
+
+		background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-2-bg.jpg") repeat center center;
+
+	  }	
+
+	.content-wrapper {
+
+		// background-color: rgba( lighten( gray, 15% ), .5 );
+		padding-top: 8rem;
+		padding-bottom: 5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;		
+	}
+
+	.headline {
+		// font-style: italic;
+		// font-size: 3.5rem;
+		// color: darken( gray, 10% );
+		padding: 5rem;
+		background: rgba( $leisa-green, .5 );
+		color: white;
+
+		i {
+			font-size: 7rem;
+			color: lighten( gray, 45% );
+		}
+
+		.title {
+			font-size: 3rem;
+			font-weight: 600;
+			font-variant: small-caps;
+		}
+		.details {
+			font-size: 2rem;
+		}
+	}
+
+	h2 {
+		font-size: 1.7rem;
+		// color: darken( gray, 5% );
+		color: white;
+		i {
+			font-size: 1.7rem !important;
+		}
+	}
+
+	h5 {
+		padding-top: 3rem;
+		font-weight: 500;
+		font-size: 2rem;
+	}
+
+}
+
+#book-retreat-block-5 {
+
+	background: url('http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg') repeat center center fixed;
+
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+
+	.quote-content {
+		color: darken( gray, 10% );
+
+		i {
+			color: lighten( gray, 10% );
+		}
+		h2 {
+			font-size: 2.5rem;
+		}
+		cite {
+			font-size: 2.5rem;
+			padding-top: 5rem;
+		}
+	}
+	.leisa-bio {
+		.day-time {
+			font-variant: small-caps;
+			font-weight: 700;
+		}
+	}
+
+	
+}
+
+/*=====  End of Retreat Page Styles  ======*/
 
 /*=====================================
 =            Footer Styles            =
