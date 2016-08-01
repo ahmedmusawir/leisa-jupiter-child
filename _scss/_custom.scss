@@ -1733,6 +1733,69 @@ body {
 	
 }
 
+#book-retreat-block-6 {
+	// background: url('/wp-content/uploads/2016/06/block-4-bg.jpg') repeat center center fixed;
+	background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/blk-6-bg.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;	
+
+	  @media ( max-width: 1024px ) {
+
+		background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/blk-6-bg-mobile-400x400.jpg") repeat center center;
+
+	  }	
+
+	.content-wrapper {
+
+		// background-color: rgba( lighten( gray, 15% ), .5 );
+		padding-top: 8rem;
+		padding-bottom: 5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;		
+	}
+
+	.headline {
+		font-style: italic;
+		color: white;
+
+		.day-time {
+			font-weight: 700;
+			font-size: 3rem;
+			font-variant: small-caps;
+		}
+
+		i {
+			font-size: 7rem;
+			color: lighten( gray, 45% );
+		}
+
+		.title {
+			font-size: 5rem;
+			font-style: none;
+		}
+		.details {
+			font-size: 3rem;
+		}
+	}
+
+	h2 {
+		font-size: 2rem;
+		color: lighten( gray, 45% );
+	}
+
+	h5 {
+		padding-top: 3rem;
+		font-weight: 500;
+		font-size: 2rem;
+	}
+
+}
+
 /*=====  End of Retreat Page Styles  ======*/
 
 /*=====================================
@@ -1756,6 +1819,14 @@ body {
 			&:hover {
 				background-color: darken( $leisa-green, 10% );
 			}
+		}
+
+		h5 {
+			color: darken( white, 15% );
+			font-weight: 700;
+			font-size: 2rem;
+			// font-variant: small-caps;
+			padding-top: 2rem;
 		}		
 	}
 }

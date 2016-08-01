@@ -5,12 +5,6 @@
               CONTACT LEISA PETERSON
             </button>               
          </h2>    
-         <h5>
-             <i class="fa fa-phone" aria-hidden="true"></i>
-                530-448-7081 (USA) <br>
-             <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                lpeterson@wealthclinic.com
-         </h5>
      </div>
 </section>
 

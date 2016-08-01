@@ -194,10 +194,38 @@ get_header();
 			<h4><span class="day-time">Saturday – October 8 – 9 am to 5 pm</span> – AM Diving into Your Relationship with Money and Breaking Free from the Past.  Group Lunch.  PM with Leisa guiding meditations, facilitating group exercises and discussions.</h4>
 
 			<h4><span class="day-time">Sunday – October 9  – 9 am – 4 pm</span> – AM Trying on our new pair of wings for flying to new heights in our ability to receive.  Group Lunch.  PM with Leisa guided meditations and facilitating group exercises.  Final wrap up with Leisa.</h4>
-		
+
 		</div>
 
 	</div>
+
+</section>
+
+<section id="book-retreat-block-6" class="">
+
+	<figure class="content-wrapper">
+
+		<div class="headline text-center wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
+			<i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
+			<h1 class="title">SPECIAL NOTE:</h1>
+			<h1 class="details">
+				Leisa is hosting three FREE upcoming virtual webinars:
+			</h1>
+
+			<h2><span class="day-time">August 1st </span>– The How’s, Why’s and Where’s for Taking Personal Retreats at 5 pm Pacific Time</h2>
+			<h2><span class="day-time">August 17th </span>–  How to Stop Living in Lack and Start Living in Abundance.  During this class, you will discover how to break free of the 7 Scarcity Mindsets affecting entrepreneurs, the deep soul-purpose behind your desire for abundance and how possible it is to create the business of your dreams starting today.</h2>
+			<h2><span class="day-time">August 23rd </span>– Abundance Planning for Entrepreneurs.  During this hands-on live workshop we’ll dive deep into the Business Flower Assessment Tool™ to help you explore where you are with your business, what’s working, what isn’t and then determine the next steps to assist you in achieving your highest goals.and
+				Two in-person workshops at the Sedona Creative Life Center in Sedona, AZ:Authentic Abundance</h2>
+			<h2><span class="day-time">August 24th </span>–  How to Stop Living in Lack and Start Living in Abundance.  During this class, you will discover how to break free of the 7 Scarcity Mindsets affecting entrepreneurs, the deep soul-purpose behind your desire for abundance and how possible it is to create the business of your dreams starting today.</h2>
+			<h2><span class="day-time">September 6th </span>— Abundance Planning for Entrepreneurs.  During this hands-on workshop we’ll dive deep into the Business Flower Assessment Tool™ to help you explore where you are with your business, what’s working, what isn’t and then determine the next steps to assist you in achieving your highest goals and living abundantly.</h2>
+
+			<h5>
+				Contact Leisa at lpeterson@wealthclinic.com to sign up for the free workshops.
+			</h5>
+
+		</div>
+
+	</figure>	
 
 </section>
 <!--====  End of Da Moose is Loose  ==== -->
