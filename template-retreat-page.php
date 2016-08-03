@@ -51,8 +51,8 @@ get_header();
 	    	
 		<div class="quote-content">
 
-			<i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
 			<blockquote>
+				<i class="fa fa-quote-left fa-5x pull-left" aria-hidden="true"></i>
 				<h2>
 					Leisa lives a life of abundance. Her unique insights on bringing money and self-realization together into practical application empowers people to take big strides toward creating abundance in their own lives.
 				</h2>
@@ -138,7 +138,8 @@ get_header();
 			</h1>
 
 			<h5>
-				<a class="btn btn-success btn-lg" href="https://sp185.infusionsoft.com/app/manageCart/showManageOrder" target="_blank" title="">CLICK HERE TO REGISTER</a>				
+				<a class="btn btn-warning btn-lg" href="https://sp185.infusionsoft.com/app/manageCart/addProduct?productId=100
+					" target="_blank" title="">CLICK HERE TO REGISTER</a>				
 			</h5>
 
 			<h2><i class="fa fa-send" aria-hidden="true"></i>Contact Leisa at lpeterson@wealthclinic.com to sign up for the free workshops.</h2>
@@ -156,13 +157,13 @@ get_header();
 	    	
 		<div class="quote-content">
 
-			<i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
 			<blockquote>
+				<i class="fa fa-quote-left fa-5x pull-left" aria-hidden="true"></i>
 				<h2>
 					One of the best things I found in working with Leisa Peterson is the attention given to beliefs around money. Those (hidden) beliefs effect my everyday life, and with this new awareness, I feel well-armed against unconscious, limiting beliefs. With Leisa’s guidance and mindfulness direction, I feel like my new, successful relationship with money has totally opened up. Beliefs of all kinds can create openings or blocks; money is no different. I’m so excited to see some of my most strongly-held money beliefs be knocked down, creating a new opening for abundance.
 				</h2>
 				<cite>
-					-- Gretchen Breuner (From a past workshop attendee)
+					-- Gretchen Breuner (A past workshop attendee)
 				</cite>				
 			</blockquote>
 
@@ -209,13 +210,18 @@ get_header();
 			<i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
 			<h1 class="title">SPECIAL NOTE:</h1>
 			<h1 class="details">
-				Leisa is hosting three FREE upcoming virtual webinars:
+				Leisa is hosting three FREE upcoming virtual webinars and two live FREE workshops in Sedona, AZ:
 			</h1>
 
 			<h2><span class="day-time">August 1st </span>– The How’s, Why’s and Where’s for Taking Personal Retreats at 5 pm Pacific Time</h2>
-			<h2><span class="day-time">August 17th </span>–  How to Stop Living in Lack and Start Living in Abundance.  During this class, you will discover how to break free of the 7 Scarcity Mindsets affecting entrepreneurs, the deep soul-purpose behind your desire for abundance and how possible it is to create the business of your dreams starting today.</h2>
-			<h2><span class="day-time">August 23rd </span>– Abundance Planning for Entrepreneurs.  During this hands-on live workshop we’ll dive deep into the Business Flower Assessment Tool™ to help you explore where you are with your business, what’s working, what isn’t and then determine the next steps to assist you in achieving your highest goals.and
+			<h2><span class="day-time">August 17th (10 am pst)</span>–  How to Stop Living in Lack and Start Living in Abundance.  During this class, you will discover how to break free of the 7 Scarcity Mindsets affecting entrepreneurs, the deep soul-purpose behind your desire for abundance and how possible it is to create the business of your dreams starting today.</h2>
+			<h2><span class="day-time">August 22nd (Noon pst)</span>– Abundance Planning for Entrepreneurs.  During this hands-on live workshop we’ll dive deep into the Business Flower Assessment Tool™ to help you explore where you are with your business, what’s working, what isn’t and then determine the next steps to assist you in achieving your highest goals.and
 				Two in-person workshops at the Sedona Creative Life Center in Sedona, AZ:Authentic Abundance</h2>
+
+			<h1 class="details">
+				The following events will be held LIVE at Sedona Creative Life Center in Sedona, AZ:
+			</h1>
+				
 			<h2><span class="day-time">August 24th </span>–  How to Stop Living in Lack and Start Living in Abundance.  During this class, you will discover how to break free of the 7 Scarcity Mindsets affecting entrepreneurs, the deep soul-purpose behind your desire for abundance and how possible it is to create the business of your dreams starting today.</h2>
 			<h2><span class="day-time">September 6th </span>— Abundance Planning for Entrepreneurs.  During this hands-on workshop we’ll dive deep into the Business Flower Assessment Tool™ to help you explore where you are with your business, what’s working, what isn’t and then determine the next steps to assist you in achieving your highest goals and living abundantly.</h2>
 

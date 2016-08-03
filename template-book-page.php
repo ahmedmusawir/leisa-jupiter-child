@@ -122,7 +122,7 @@ get_header();
 					<span class="label label-warning">Amazon #1 Bestseller</span>
 				</h2>
 				<h4>
-					<a href="https://sp185.infusionsoft.com/app/form/default-campaign-form21"  target="_blank" class="btn btn-success btn-lg">DOWNLOAD NOW</a>
+					<a href="http://www.wealthclinic.com/create-wealth-mindfully/"  target="_blank" class="btn btn-success btn-lg">DOWNLOAD NOW</a>
 				</h4>					
 			</article>		
 		</div>

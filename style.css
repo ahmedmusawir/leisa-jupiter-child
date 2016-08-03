@@ -11,6 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Template:       jupiter
 Version: 11.6
 
+
 All css files are placed in /css/ folder.
 If you want to add your own css code, please do it in /css/custom.css
 
@@ -6724,26 +6725,34 @@ body {
     #book-retreat-block-1 .headline .details {
       font-size: 3rem; }
   #book-retreat-block-1 h2 {
-    font-size: 3rem;
+    font-size: 3.3rem;
     color: #737373; }
   #book-retreat-block-1 h5 {
     padding-top: 3rem;
     font-weight: 500;
-    font-size: 2rem; }
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    color: #018442; }
 
 #book-retreat-block-2 {
   background: url("http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg") repeat center center fixed;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
   padding-left: 2rem;
   padding-right: 2rem; }
   #book-retreat-block-2 .quote-content {
-    color: #676767; }
-    #book-retreat-block-2 .quote-content i {
-      color: #9a9a9a; }
-    #book-retreat-block-2 .quote-content cite {
-      font-size: 2.5rem;
-      padding-top: 3rem; }
+    color: white; }
+    #book-retreat-block-2 .quote-content blockquote {
+      background-color: rgba(0, 0, 0, 0.4); }
+      #book-retreat-block-2 .quote-content blockquote i {
+        color: #cdcdcd;
+        font-size: 4rem; }
+      #book-retreat-block-2 .quote-content blockquote h2 {
+        font-size: 2rem; }
+      #book-retreat-block-2 .quote-content blockquote cite {
+        font-size: 1.8rem;
+        padding-top: 3rem; }
 
 #book-retreat-block-3 {
   background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-3-bg-1.jpg") no-repeat center center fixed;
@@ -6794,7 +6803,7 @@ body {
   background-size: cover; }
   @media (max-width: 1024px) {
     #book-retreat-block-4 {
-      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-2-bg.jpg") repeat center center; } }
+      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/skulls.jpg") repeat center center; } }
   #book-retreat-block-4 .content-wrapper {
     padding-top: 8rem;
     padding-bottom: 5rem;
@@ -6819,9 +6828,20 @@ body {
     #book-retreat-block-4 h2 i {
       font-size: 1.7rem !important; }
   #book-retreat-block-4 h5 {
-    padding-top: 3rem;
-    font-weight: 500;
-    font-size: 2rem; }
+    padding-top: 3rem; }
+    #book-retreat-block-4 h5 a {
+      padding: 3rem 4rem;
+      font-weight: 700;
+      font-size: 2.6rem;
+      background: transparent;
+      border: 4px solid orange; }
+      #book-retreat-block-4 h5 a:hover {
+        background: rgba(255, 165, 0, 0.6); }
+      @media (max-width: 550px) {
+        #book-retreat-block-4 h5 a {
+          padding: 1rem;
+          font-size: 1.5rem;
+          background: orange; } }
 
 #book-retreat-block-5 {
   background: url("http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg") repeat center center fixed;
@@ -6830,14 +6850,17 @@ body {
   padding-left: 2rem;
   padding-right: 2rem; }
   #book-retreat-block-5 .quote-content {
-    color: #676767; }
-    #book-retreat-block-5 .quote-content i {
-      color: #9a9a9a; }
-    #book-retreat-block-5 .quote-content h2 {
-      font-size: 2.5rem; }
-    #book-retreat-block-5 .quote-content cite {
-      font-size: 2.5rem;
-      padding-top: 5rem; }
+    color: white; }
+    #book-retreat-block-5 .quote-content blockquote {
+      background-color: rgba(0, 0, 0, 0.4); }
+      #book-retreat-block-5 .quote-content blockquote i {
+        color: #cdcdcd;
+        font-size: 4rem; }
+      #book-retreat-block-5 .quote-content blockquote h2 {
+        font-size: 2rem; }
+      #book-retreat-block-5 .quote-content blockquote cite {
+        font-size: 1.8rem;
+        padding-top: 3rem; }
   #book-retreat-block-5 .leisa-bio .day-time {
     font-variant: small-caps;
     font-weight: 700; }
@@ -6870,7 +6893,10 @@ body {
       font-size: 5rem;
       font-style: none; }
     #book-retreat-block-6 .headline .details {
-      font-size: 3rem; }
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding-top: 2rem;
+      padding-bottom: 2rem; }
   #book-retreat-block-6 h2 {
     font-size: 2rem;
     color: #f3f3f3; }
@@ -6947,5 +6973,10 @@ body {
     color: #018442; }
 
 /*=====  End of Footer Styles  ======*/
+/**
+ *
+ * Todays Date: 3 Aug 2016
+ *
+ */
 
 /*# sourceMappingURL=style.css.map */

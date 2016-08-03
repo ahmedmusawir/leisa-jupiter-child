@@ -1527,14 +1527,18 @@ body {
 	}
 
 	h2 {
-		font-size: 3rem;
+		font-size: 3.3rem;
 		color: darken( gray, 5% );
 	}
 
 	h5 {
 		padding-top: 3rem;
 		font-weight: 500;
-		font-size: 2rem;
+		font-size: 2.8rem;
+		font-style: normal;
+		font-weight: 600;
+		// font-variant: small-caps;
+		color: lighten($leisa-green, 0%);
 	}
 
 }
@@ -1543,21 +1547,33 @@ body {
 
 	background: url('http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg') repeat center center fixed;
 
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
 
 	.quote-content {
-		color: darken( gray, 10% );
+		color: darken( white, 0% );
 
-		i {
-			color: lighten( gray, 10% );
+
+		blockquote {
+			background-color: rgba(black, .4);
+
+			i {
+				color: lighten( gray, 30% );
+				font-size: 4rem;
+			}			
+
+			h2 {
+				font-size: 2rem;
+
+			}
+			cite {
+				font-size: 1.8rem;
+				padding-top: 3rem;
+			}			
 		}
-		cite {
-			font-size: 2.5rem;
-			padding-top: 3rem;
-		}
+
 	}
 
 	
@@ -1647,7 +1663,7 @@ body {
 
 	  @media ( max-width: 1024px ) {
 
-		background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-2-bg.jpg") repeat center center;
+		background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/skulls.jpg") repeat center center;
 
 	  }	
 
@@ -1694,8 +1710,25 @@ body {
 
 	h5 {
 		padding-top: 3rem;
-		font-weight: 500;
-		font-size: 2rem;
+
+
+		a {
+			padding: 3rem 4rem;
+			font-weight: 700;
+			font-size: 2.6rem;
+			background: transparent;
+			border: 4px solid orange;
+			// padding-bottom: 2rem;
+			&:hover {
+				background: rgba( orange, .6 );
+			}
+
+			@media ( max-width: 550px ) {
+				padding: 1rem;
+				font-size: 1.5rem;
+				background: orange;
+			}
+		}
 	}
 
 }
@@ -1709,18 +1742,40 @@ body {
 	padding-left: 2rem;
 	padding-right: 2rem;
 
-	.quote-content {
-		color: darken( gray, 10% );
+	// .quote-content {
+	// 	color: darken( gray, 10% );
 
-		i {
-			color: lighten( gray, 10% );
-		}
-		h2 {
-			font-size: 2.5rem;
-		}
-		cite {
-			font-size: 2.5rem;
-			padding-top: 5rem;
+	// 	i {
+	// 		color: lighten( gray, 10% );
+	// 	}
+	// 	h2 {
+	// 		font-size: 2.5rem;
+	// 	}
+	// 	cite {
+	// 		font-size: 2.5rem;
+	// 		padding-top: 5rem;
+	// 	}
+	// }
+	.quote-content {
+		color: darken( white, 0% );
+
+
+		blockquote {
+			background-color: rgba(black, .4);
+
+			i {
+				color: lighten( gray, 30% );
+				font-size: 4rem;
+			}			
+
+			h2 {
+				font-size: 2rem;
+
+			}
+			cite {
+				font-size: 1.8rem;
+				padding-top: 3rem;
+			}			
 		}
 	}
 	.leisa-bio {
@@ -1780,6 +1835,9 @@ body {
 		}
 		.details {
 			font-size: 3rem;
+			background-color: rgba(black, .3);
+			padding-top: 2rem;
+			padding-bottom: 2rem;
 		}
 	}
 
