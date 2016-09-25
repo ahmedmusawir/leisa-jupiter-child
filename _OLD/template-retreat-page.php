@@ -16,17 +16,6 @@ get_header();
 
 ?>
 
-<?php 
-$block_1_text = get_field( 'block_1_text' );
-$block_2_text = get_field( 'block_2_text' );
-$block_3_text = get_field( 'block_3_text' );
-$block_4_text = get_field( 'block_4_text' );
-$block_5_text = get_field( 'block_5_text' );
-$block_6_text = get_field( 'block_6_text' );
-$block_7_text = get_field( 'block_7_text' );
-$block_8_text = get_field( 'block_8_text' );
-
-?>
 <!--=======================================
 =   Da Moose is Loose Work With Me Page   =
 ========================================-->
@@ -37,7 +26,7 @@ $block_8_text = get_field( 'block_8_text' );
 	<figure class="content-wrapper">
 
 		<div class="headline text-center wow zoomIn container" data-wow-duration="2s" data-wow-delay="0s">
-<!-- 			<i class="fa fa-fire fa-3x" aria-hidden="true"></i>
+			<i class="fa fa-fire fa-3x" aria-hidden="true"></i>
 			<h1 class="title">Authentic Abundance™ – A Retreat in Sedona </h1>
 
 			<h2>What if you could drop the “shame” about where you should be?</h2>
@@ -59,8 +48,6 @@ $block_8_text = get_field( 'block_8_text' );
 			<h1 class="details">What if you could also be confident & proud of your wealth wisdom?</h1>
 
 			<h1 class="details"><span class="focus">What if the joy, freedom & fun you experience inside the work you love found its way into every area of your life? (yep, even finances)</span></h1>
-			 -->
-			<?php echo $block_1_text; ?>
 
 		</div>
 
@@ -75,7 +62,7 @@ $block_8_text = get_field( 'block_8_text' );
 	    	
 		<div class="text-content">
 
-<!-- 			<img class="img-responsive pull-right" src="http://www.leisapeterson.com/wp-content/uploads/2016/08/The-ocean-stirsthe-heart-inspiresthe-imagination-brings-eternaljoy-to-the-soul-2-1-768x768.jpg" alt="">
+			<img class="img-responsive pull-right" src="http://www.leisapeterson.com/wp-content/uploads/2016/08/The-ocean-stirsthe-heart-inspiresthe-imagination-brings-eternaljoy-to-the-soul-2-1-768x768.jpg" alt="">
 
 			<h2>The Authentic Abundance Weekend Retreat is designed to show you exactly how you can live with more prosperity, ease and abundance.</h2> 
 
@@ -95,9 +82,7 @@ $block_8_text = get_field( 'block_8_text' );
 
 			<h5>She’ll help you to break through the blocks that stand in your way of living abundantly, so you can experience profound emotional relief, 
 			inner peace and pave the way to a life with greater confidence and true wealth.	
-			</h5>		 -->
-
-			<?php echo $block_2_text; ?>
+			</h5>		
 
 
 		</div>
@@ -112,8 +97,8 @@ $block_8_text = get_field( 'block_8_text' );
 	<figure class="content-wrapper">
 
 		<div id="workshop" class="headline text-center zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-		<!-- 		
 			<i class="fa fa-leaf fa-3x" aria-hidden="true"></i>
+			<!-- <i class="fa fa-leaf fa-3x" aria-hidden="true"></i> -->
 			<h1 class="title">During this Weekend Retreat, you’ll… </h1>
 
 			<h2>
@@ -139,9 +124,7 @@ $block_8_text = get_field( 'block_8_text' );
 			<h2>
 				<i class="fa fa-shield" aria-hidden="true"></i>
 				Gain tools to transform your money so you can live in authentic abundance every day. 
-			</h2> -->
-
-			<?php echo $block_3_text; ?>
+			</h2>
 
 		</div>		
 
@@ -156,8 +139,8 @@ $block_8_text = get_field( 'block_8_text' );
 	<figure class="content-wrapper">
 
 		<div class="headline text-center wow zoomIn container" data-wow-duration="2s" data-wow-delay="0s">
-
-<!-- 			<i class="fa fa-group fa-3x" aria-hidden="true"></i>
+			<i class="fa fa-group fa-3x" aria-hidden="true"></i>
+			<!-- <h1 class="title">Authentic Abundance™ – A Retreat in Sedona </h1> -->
 
 			<h2>This retreat IS for people who are:  </h2>
 
@@ -182,8 +165,6 @@ $block_8_text = get_field( 'block_8_text' );
 			<h1 class="details">- aren’t open to new ideas & the discovery of alternative solutions.</span></h1>
 
 			<h1 class="details">- Can’t stand the thought of diving into your personal money backstories even if positive transformation is the result.</span></h1>
- -->
-			<?php echo $block_4_text; ?>
 
 		</div>
 
@@ -197,18 +178,20 @@ $block_8_text = get_field( 'block_8_text' );
 	<figure class="content-wrapper">
 
 		<div class="headline text-center wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-
-<!-- 			<i class="fa fa-tree fa-3x" aria-hidden="true"></i>
+			<i class="fa fa-tree fa-3x" aria-hidden="true"></i>
 			<h1 class="title">COST:  $495 Early Bird until September 15th, $625 thereafter</h1>
+			<!-- <h1 class="details">
+				Leisa is hosting two FREE virtual webinars (August 1st and August 17th at 5 pm Pacific Time) and two in-person workshops in Sedona at the Sedona Creative Life Center on August 24th and September 6th, and will be offering special 2 for 1 discounts during those events.  
+			</h1> -->
 
 			<h5>
 				<a class="btn btn-warning btn-lg" href="https://sp185.infusionsoft.com/app/manageCart/addProduct?productId=100
 					" target="_blank" title="">CLICK HERE TO REGISTER</a>				
 			</h5>
 
-			<h2><i class="fa fa-send" aria-hidden="true"></i> Upon registration, Leisa will contact you for a brief consultation to ensure this is the right retreat for you. </h2>
- -->
-			<?php echo $block_5_text; ?>
+			<h2><i class="fa fa-send" aria-hidden="true"></i> Upon registration, Leisa will contact you for a brief consultation to ensure this is the right retreat for you.  
+</h2>
+
 
 		</div>
 
@@ -221,7 +204,7 @@ $block_8_text = get_field( 'block_8_text' );
 
     <div class="container-fluid">
 	    	
-<!-- 		<div class="quote-content">
+		<div class="quote-content">
 
 			<blockquote>
 				<i class="fa fa-quote-left fa-5x pull-left" aria-hidden="true"></i>
@@ -274,9 +257,7 @@ $block_8_text = get_field( 'block_8_text' );
 				</span>
 			</h4>
 
-		</div> -->
-
-		<?php echo $block_6_text; ?>
+		</div>
 
 	</div>
 
@@ -290,7 +271,7 @@ $block_8_text = get_field( 'block_8_text' );
 		<div class="quote-content">
 
 
-<!-- 			<blockquote class=" clearfix">
+			<blockquote class=" clearfix">
 
 			<img class="pull-left img-responsive" src="http://www.leisapeterson.com/wp-content/uploads/2016/08/T-Marv-Testimonial.png" alt="">
 				
@@ -304,9 +285,7 @@ $block_8_text = get_field( 'block_8_text' );
 					</cite>									
 				</div>
 
-			</blockquote> -->
-
-			<?php echo $block_7_text; ?>
+			</blockquote>
 
 
 		</div>
@@ -321,8 +300,7 @@ $block_8_text = get_field( 'block_8_text' );
 	<figure class="content-wrapper">
 
 		<div class="headline text-center wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-
-<!-- 			<i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
+			<i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
 			<h1 class="title">SPECIAL NOTE:</h1>
 			<h3>Leisa is hosting several FREE upcoming workshops where she’ll share more about the upcoming retreat and give instructions on a few topics geared towards entrepreneurs:</h3>
 			<h1 class="details">
@@ -342,9 +320,6 @@ $block_8_text = get_field( 'block_8_text' );
 			<h5>
 				Contact Leisa at lpeterson@wealthclinic.com to sign up for the free workshops.
 			</h5>
- -->
-
-			<?php echo $block_8_text; ?>
 
 		</div>
 

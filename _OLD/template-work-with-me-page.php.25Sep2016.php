@@ -15,26 +15,7 @@ get_header();
 // mk_build_main_wrapper( mk_get_view('singular', 'wp-page', true) );
 
 ?>
-<?php  
-/* Block 1 Text */
-$block_1_content = get_field( 'block_1_content' );
-/* Accordion Block */
-$accordion_1_header = get_field( 'accordion_1_header' );
-$accordion_1_text = get_field( 'accordion_1_text' );
 
-$accordion_2_header = get_field( 'accordion_2_header' );
-$accordion_2_text = get_field( 'accordion_2_text' );
-
-$accordion_3_header = get_field( 'accordion_3_header' );
-$accordion_3_text = get_field( 'accordion_3_text' );
-
-$accordion_4_header = get_field( 'accordion_4_header' );
-$accordion_4_text = get_field( 'accordion_4_text' );
-
-$accordion_5_header = get_field( 'accordion_5_header' );
-$accordion_5_text = get_field( 'accordion_5_text' );
-
-?>
 
 <!--=======================================
 =   Da Moose is Loose Work With Me Page   =
@@ -43,18 +24,17 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 
 <section id="work-with-me-block-1" class="">
 
-<!-- 	<h1 class="headline wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
+	<h1 class="headline wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
 	<i class="fa fa-leaf" aria-hidden="true"></i>
+		<!-- Helping successful but overworked entrepreneurs slow down, enjoy life way more so they 
+		create a profitable business that fulfills their dreams ... -->
 		You can build a profitable, blissful business.  One that’s aligned with your passions and allows you to slow down and 
 		savour every second of the journey.  And I can show you how…
 
 	</h1>
 
 	<h2 class="text-center">Why Hire Me?  Here’s the Scoop:</h2>
-	 -->
-
-	<?php echo $block_1_content; ?>
-
+	
 	<article class="accordion-holder">
 				
 		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -62,8 +42,7 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 		    <a class="the-bar" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 			    <div class="panel-heading" role="tab" id="headingOne">
 			      <h4 class="panel-title text-center">
-			          <!-- Who are my Clients? -->
-			          <?php echo $accordion_1_header; ?>
+			          Who are my Clients?
 			      </h4>
 			    </div>
 		    </a>
@@ -71,14 +50,12 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						<!-- I help high achieving, heart centered entrepreneurs just like you committed to creating profitable & thriving 
+						I help high achieving, heart centered entrepreneurs just like you committed to creating profitable & thriving 
 						businesses.  My greatest joy is helping you break through the blocks that keep you from getting more of what 
 						you want, including more joy, time & freedom.  After barely coming up for air while earning my first million I 
 						learned that true success is measured in more than money - it also includes having freedom with your time 
 						(ie not being a slave to the thing you’ve created) choosing work that gives purpose, joy and allows you to be 
-						the best version of yourself. -->
-
-						<?php echo $accordion_1_text; ?>
+						the best version of yourself.
 
 					</article>	
 				</div>	
@@ -94,8 +71,7 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 		    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 			    <div class="panel-heading" role="tab" id="headingTwo">
 			      <h4 class="panel-title text-center">
-			         <!-- What’s my background? -->
-			         <?php echo $accordion_2_header; ?>
+			         What’s my background?
 
 			      </h4>
 			    </div>
@@ -104,7 +80,7 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						<!-- Want the scoop on my journey?  When I work with clients I draw upon my nearly 30 years of experience in 
+						Want the scoop on my journey?  When I work with clients I draw upon my nearly 30 years of experience in 
 						finance, business development, entrepreneurship & marketing strategy.  I combine all those business savvy 
 						skills with self-awareness insights developed through philosophical & religious studies, biological & 
 						neurological science as well as somatic & yogic body, mind & emotional releasing techniques.  What this really 
@@ -113,9 +89,7 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 						wealth than ever before.  If you want to know more details about me the official bio is over
 						<button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal-bio">
 						here ...
-						</button>	 -->
-
-						<?php echo $accordion_2_text; ?>
+						</button>	
 
 					</article>	
 				</div>	
@@ -131,8 +105,7 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 		    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 			    <div class="panel-heading" role="tab" id="headingThree">
 			      <h4 class="panel-title text-center">
-			          <!-- What do you get from working with me? -->
-			          <?php echo $accordion_3_header; ?>
+			          What do you get from working with me?
 			      </h4>
 			    </div>
 		    </a>
@@ -140,14 +113,12 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						<!-- As a life coach for entrepreneurs, I’m here to walk alongside you in discovering new ways to create more abundance in your life and business.  
+						As a life coach for entrepreneurs, I’m here to walk alongside you in discovering new ways to create more abundance in your life and business.  
 						You can dip your toes in by reading several of my free <a href="http://www.leisapeterson.com/books/" title="">eBooks</a> or checking out my 
 						<a href="http://www.wealthclinic.com/podcasts/" target="_blank" title="">podcast</a> or <a href="http://www.wealthclinic.com/blog/" target="_blank" title="">blog</a>. You can join me on a <a href="http://www.leisapeterson.com/retreat/" title="">retreat</a> and spend a weekend 
 						where you’ll learn how to create a life and business of Authentic Abundance &trade;).
 						<br><br>
 						Or you can work with me one-on-one where we’ll work together via phone or video calls to create a customized 90-day plan tailored specifically for you to ensure you’re achieving all your visionary goals. And we do all the mindset work so that achieving them this time - will be better. (Only change is 'different' becomes 'better'.)
-					 -->
-						<?php echo $accordion_3_text; ?>
 					</article>	
 				</div>	
 				<div class="col-md-6 col-lg-6">
@@ -162,8 +133,7 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 		    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
 			    <div class="panel-heading" role="tab" id="headingThree">
 			      <h4 class="panel-title text-center">
-			          <!-- How much does it cost? -->
-			          <?php echo $accordion_4_header; ?>
+			          How much does it cost?
 			      </h4>
 			    </div>
 		    </a>
@@ -171,14 +141,13 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						<!-- I offer a handful of different group and private coaching programs depending upon your need, timeline and budget.  The best way to determine
+						I offer a handful of different group and private coaching programs depending upon your need, timeline and budget.  The best way to determine
 						 if we’re a good fit is to schedule a complimentary discovery session so we can learn more about each other and see if we’re perfect together.  
 						 You can schedule that right
 						<button type="button" class="btn btn-link" data-toggle="modal" data-target="#myFooterModal">
 						here ...
 						</button>	
- -->
-						<?php echo $accordion_4_text; ?>
+
 
 					</article>	
 				</div>	
@@ -194,8 +163,7 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 		    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
 			    <div class="panel-heading" role="tab" id="headingThree">
 			      <h4 class="panel-title text-center">
-			          <!-- How does it work? -->
-			          <?php echo $accordion_5_header; ?>
+			          How does it work?
 			      </h4>
 			    </div>
 		    </a>
@@ -203,16 +171,14 @@ $accordion_5_text = get_field( 'accordion_5_text' );
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						<!-- We’ll go wherever we need to go in our sessions, whether that’s addressing a time-management issue (so you can actually step 
+						We’ll go wherever we need to go in our sessions, whether that’s addressing a time-management issue (so you can actually step 
 						away from the computer screen) a real-time struggle (because every entrepreneur knows things pop up unexpectedly) or work 
 						through a new long-term vision (you have to disengage from the grind long enough to see the path ahead).
 						<br><br>
 						My goal is two-fold.  To start I will guide you through a comprehensive diagnostic assessment of your business to uncover what’s 
 						working, what isn’t and what possibilities exist to elevate your purpose and profits.  Second, I show you how to lead from context, 
 						which means listening to your inner voice, the people on your team and the information around you.  You’ll have unlimited email access 
-						to me so we can work on real-time decision-making skills and your journey will always be supported. -->
-
-						<?php echo $accordion_5_text; ?>
+						to me so we can work on real-time decision-making skills and your journey will always be supported.
 			
 					</article>	
 				</div>	

@@ -16,23 +16,6 @@ get_header();
 
 ?>
 
-<?php 
-/* Block 1 */
-$speaker_block_1_text = get_field( 'speaker_block_1_text' );
-
-
-/* Block 2 */
-
-$block_2_header = get_field( 'block_2_header' );
-$block_2_left_text = get_field( 'block_2_left_text' );
-$block_2_right_text = get_field( 'block_2_right_text' );
-
-/* Video Block */
-$block_3_text = get_field( 'block_3_text' );
-
-
-?>
-
 <!--=======================================
 =   Da Moose is Loose Work With Me Page   =
 ========================================-->
@@ -43,14 +26,14 @@ $block_3_text = get_field( 'block_3_text' );
 	<figure class="content-wrapper">
 
 		<div class="headline text-center wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-			<!-- <h1 class="title">Leisa Peterson, MBA, CFP<small style="color: lightgray;">®</small></h1>
+			<h1 class="title">Leisa Peterson, MBA, CFP<small style="color: lightgray;">®</small></h1>
 			<h1 class="details">
 
 				Motivational Speaker, Best Selling Author, Wealth Coach, Podcaster, Retreat Leader
 
-			</h1> -->
-
-			<?php echo $speaker_block_1_text; ?>
+				<!-- Motivational speaker, business EFT expert, wealth coach, <br> -->
+				<!-- marketing strategist, podcaster, author, and retreat leader -->
+			</h1>
 
 		</div>
 
@@ -60,10 +43,7 @@ $block_3_text = get_field( 'block_3_text' );
 
 <section id="speaker-page-block-2" class="">
 
-	<h2 class="text-center">
-	<!-- Looking for an engaging presenter for your next event? -->
-		<?php echo $block_2_header; ?>
-	</h2>
+	<h2 class="text-center">Looking for an engaging presenter for your next event?</h2>
 
 	<div class="container-fluid">
 		
@@ -71,16 +51,12 @@ $block_3_text = get_field( 'block_3_text' );
 
 			<article class="text-block text-left">
 				
-				<h5>
-
-					<!-- <span style="font-weight: 600;">You need a presenter</span> who’s fun, comfortable on stage and can keep a crowd from reaching for their 
+				<h5><span style="font-weight: 600;">You need a presenter</span> who’s fun, comfortable on stage and can keep a crowd from reaching for their 
 					cell phones and getting sucked into social media.  I deliver talks that inspire creativity, momentum 
 					and action by tapping into my three decades of personal growth and learning in the areas of money, mindset, 
 					new business development, sales & marketing, time management & self-awareness.  I've taught weekly 
 					mindfulness courses since 2003 and have presented on a wide range of topics to groups ranging from a 
-					few people to audiences of over 800. -->
-
-					<?php echo $block_2_left_text; ?>
+					few people to audiences of over 800.
 			
 				</h5>
 
@@ -99,8 +75,9 @@ $block_3_text = get_field( 'block_3_text' );
 			</figure>
 			<article class="text-block text-right">
 				
-				<!-- <h3>Sample Presentation Topics</h3>
+				<h3>Sample Presentation Topics</h3>
 
+				<!-- <ul> -->
 					<li><h5><i class="fa fa-cog" aria-hidden="true"></i>  5 Simple Steps to Mastering The Art of Money</h5></li>	
 
 					<li><h5><i class="fa fa-cog" aria-hidden="true"></i>  7 Top Ways Entrepreneurs/People/Coaches Sabotage Their Own Success</h5></li>
@@ -110,8 +87,10 @@ $block_3_text = get_field( 'block_3_text' );
 					<li><h5><i class="fa fa-cog" aria-hidden="true"></i>  The Real Reason for the Pay Gap (for women audiences)</h5></li>
 
 					<li><h5><i class="fa fa-cog" aria-hidden="true"></i>  Spring Clean Your “Limiting Belief" Money Closet</h5></li>
- -->
-					<?php echo $block_2_right_text; ?>
+
+
+				<!-- </ul> -->
+
 
 			</article>			
 		</div>		
@@ -128,14 +107,12 @@ $block_3_text = get_field( 'block_3_text' );
 		
 		<div class="headline text-center container"><i class="fa fa-rss" aria-hidden="true"></i>
 
-<!-- 			<h1 class="title">Looking for a compelling podcast or radio show guest for your show?</h1>
+			<h1 class="title">Looking for a compelling podcast or radio show guest for your show?</h1>
 			<h1 class="details">
 				As a podcaster myself I understand that strong and prominent guests are essential to producing some really 
 				engaging content for your listeners.  Take a listen to what David Ralph shares about interviewing me for 
 				his highly rated podcast, Join Up Dots (Episodes 349 and 505)
-			</h1> -->
-
-			<?php echo $block_3_text; ?>
+			</h1>
 
 			<figure class="col-sm-12 col-md-12 col-12 youtube-video-holder wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
 				<!-- <img class="center-block img-responsive wow zoomIn" src="/wp-content/uploads/2016/06/TianaBullseyeImage.png" data-wow-duration="2s" data-wow-delay="0s" alt=""> -->
