@@ -12,3 +12,16 @@ function moose_scripts() {
     wp_enqueue_script( 'boot-js', get_stylesheet_directory_uri() . '/_js/bootstrap.min.js', array(), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'moose_scripts' );
+
+// Fix Advanced Custom Fields and Visual Composer CSS conflict
+// function afc_vc_fix() {
+// 	echo '
+// 	<style>
+// 		.repeater .row:before,
+// 		.repeater .row:after {
+// 			display: auto;
+// 			content: none;
+// 		}
+// 	</style>';
+// }
+// add_action('admin_head', 'afc_vc_fix');

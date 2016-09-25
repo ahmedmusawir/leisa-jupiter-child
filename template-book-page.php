@@ -67,7 +67,7 @@ get_header();
 					BREAKING FREE OF YOUR MONEY BLOCKS
 				</h2>
 				<h4>
-					<a href="https://sp185.infusionsoft.com/app/page/break-free-of-money-blocks"  target="_blank" class="btn btn-success btn-lg">DOWNLOAD NOW</a>
+					<a href="http://www.wealthclinic.com/break-free-from-money-block/"  target="_blank" class="btn btn-success btn-lg">DOWNLOAD NOW</a>
 				</h4>					
 			</article>
 			<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
@@ -80,7 +80,7 @@ get_header();
 					HOW TO BREAK FREE OF YOUR MONEY FEARS
 				</h2>
 				<h4>
-					<a href="https://sp185.infusionsoft.com/app/form/complimentary-e-book-request4" target="_blank"  class="btn btn-success btn-lg">DOWNLOAD NOW</a>
+					<a href="http://www.wealthclinic.com/break-free-of-money-fear/" target="_blank"  class="btn btn-success btn-lg">DOWNLOAD NOW</a>
 				</h4>					
 			</article>		
 		</div>

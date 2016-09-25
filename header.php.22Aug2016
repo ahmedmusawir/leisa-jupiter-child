@@ -3,26 +3,9 @@
 <title>LeisaPeterson.com</title>
 <head>
     <?php wp_head(); ?>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-83797245-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
 </head>
 
-<?php 
-
-	$page_header_image = get_field( 'page_header_image' ); 
-	$header_content = get_field( 'header_content' );
-
-?>
+<?php $page_header_image = get_field( 'page_header_image' ); ?>
 
 <!-- THE HEADER MODAL CODE -->
 	<!-- Modal -->
@@ -123,71 +106,7 @@
 	      </div>
 	    </div>
 	  </div>
-	</div>		
-
-
-<!-- THE BIO MODAL CODE -->
-	<!-- Modal -->
-	<div class="modal fade" id="myModal-bio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	  <div class="modal-dialog modal-lg" role="document">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	        <h4 class="modal-title text-center" id="myModalLabel">LEISA PETERSON</h4>
-	      </div>
-	      <div class="modal-body">
-
-				<section id="popup-form-click" class="clearfix">
-
-
-					<article class="popup-text col-sm-6 col-md-6 col-lg-6">
-											
-						<h5>
-						    Leisa Peterson helps successful but overworked entrepreneurs slow down and enjoy life WAY more so they can create even 
-						    more profitable businesses that fulfills their wildest dreams.  She’s an intuitive business coach, money and mindfulness 
-						    expert and bestselling author on Amazon.
-
-						    <br><br>
-
-							Leisa’s known for her ability to quickly identify the exact issues that are holding someone back from achieving the goals 
-							they desire.  Once discovered Leisa draws upon various modalities including energy clearing, shadow work, Emotional Freedom 
-							Technique, Allowing ™, mindfulness practices and breath work to assist her clients in clearing out these emotional and mental 
-							obstacles.  Once cleared Leisa gives customized instructions for how to apply the breakthrough experiences to enhance every 
-							aspect of their lives: financial, business and personal.
-						    <br><br>
-
-							As a result of her teachings, Leisa is helping thousands of people develop practical skills for attracting greater wealth, 
-							freedom and peace of mind into their lives.  She’s also the founder of wealthclinic.com where she hosts a podcast and blogs 
-							about what it means to manage money mindfully.  Leisa is a CERTIFIED FINANCIAL PLANNER ™ and has an MBA in finance.  She worked 
-							in personal finance for over 20 years and has been an entrepreneur since she started selling gardening seeds door-to-door at age 8.
-						    <br><br>
-
-							When she’s not inspiring entrepreneurs to take back control of their relationship with money Leisa spends time hiking, dirt biking, and painting around Sedona, AZ where she lives with her husband and 2 children.
-
-
-						</h5>
-						
-					</article>
-
-					<div class="img-holder">
-						<!-- <img class="img-responsive center-block" src="/wp-content/uploads/2016/07/Business-Flower-Assessment-Final_Img.png" alt=""> -->
-					</div>
-
-	
-					
-				</section>
-
-			</div>
-
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-	        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-	      </div>
-	    </div>
-	  </div>
 	</div>					
-
 
 <header id="header" class="">
 
@@ -228,22 +147,21 @@
 
 			<section class="header-txt-block container-fluid">
 
-				<div class="text-block-wrapper col-sm-9 col-md-8 col-lg-8">
+				<div class="text-block-wrapper col-sm-9 col-md-9 col-lg-9">
 					
 					<article class="txt-content center-block">
-						<!-- <h1>You've built a successful business   
-						 from scratch & know money's only 
+						<h1>Having built a successful business   
+						 from scratch you know money is only 
 						 ONE aspect of creating a wealthy life.</h1>
 
 						 <h3>If you’re still struggling to get what you most want, I can show you how ...</h3>
 						 <br>
 						 <h2>
+						 	<!-- <a class="btn btn-success btn-lg" href="http://www.wealthclinic.com/wealth-flower-opt-in/" target="_blank">FIND OUT MORE</a> -->
 							<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
 							  FIND OUT MORE ...
 							</button>				
-						 </h2> -->
-
-						 <?php echo $header_content; ?>
+						 </h2>
 
 					</article>
 

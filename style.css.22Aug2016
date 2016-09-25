@@ -6136,22 +6136,15 @@ body {
       transition: all 1s ease-in-out; }
       #block-2 .video-container .download-box-container .download-box-1:hover {
         margin-top: -2rem; }
-      #block-2 .video-container .download-box-container .download-box-1 a {
-        font-size: 2rem;
-        color: #018442; }
     #block-2 .video-container .download-box-container figure {
       padding-bottom: 3rem;
       min-height: 250px; }
     #block-2 .video-container .download-box-container h4 {
       font-size: 2rem;
       font-weight: 400;
-      color: black;
+      color: gray;
       font-family: 'Raleway', sans-serif !important;
       min-height: 130px; }
-      #block-2 .video-container .download-box-container h4 a {
-        color: #018442; }
-        #block-2 .video-container .download-box-container h4 a:hover {
-          color: orange; }
     @media (min-width: 768px) and (max-width: 991px) {
       #block-2 .video-container .download-box-container figure {
         padding-bottom: 3rem;
@@ -6328,41 +6321,17 @@ body {
 /*================================================
 =            Work With Me Page Styles            =
 ================================================*/
-#myModal-bio .modal-content {
-  border: 3px solid #28ae71;
-  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/leisa-modal-900x900.jpg") no-repeat top center; }
-#myModal-bio .modal-header {
-  padding: 15px;
-  border-bottom: 0px solid #e5e5e5;
-  background: #015129;
-  color: white; }
-#myModal-bio .modal-footer {
-  padding: 15px;
-  text-align: center;
-  border-top: 0px solid #e5e5e5; }
-  #myModal-bio .modal-footer .btn {
-    background-color: transparent; }
-#myModal-bio .modal-body {
-  background: rgba(26, 111, 72, 0.7); }
-  #myModal-bio .modal-body .img-holder img {
-    width: 30%; }
-  #myModal-bio .modal-body .popup-text {
-    color: white; }
-    #myModal-bio .modal-body .popup-text h5 {
-      color: white;
-      font-size: 1.5rem; }
-
 #work-with-me-block-1 {
   background: url("/wp-content/uploads/2016/06/block-4-bg.jpg") repeat center center fixed;
   padding-top: 5rem;
   padding-bottom: 5rem;
   padding-left: 2rem;
   padding-right: 2rem; }
-  #work-with-me-block-1 .headline {
+  #work-with-me-block-1 h1.headline {
     font-style: italic;
-    font-size: 3rem;
-    color: #a6a6a6; }
-    #work-with-me-block-1 .headline i {
+    font-size: 3.5rem;
+    color: #b3b3b3; }
+    #work-with-me-block-1 h1.headline i {
       font-size: 7rem; }
   #work-with-me-block-1 h2 {
     padding-top: 5rem;
@@ -6395,11 +6364,11 @@ body {
       padding-right: 10rem;
       padding-top: 8rem;
       padding-bottom: 8rem; }
-      #work-with-me-block-1 .headline {
+      #work-with-me-block-1 h1.headline {
         font-style: italic;
-        font-size: 3.5rem;
-        color: #a6a6a6; }
-        #work-with-me-block-1 .headline i {
+        font-size: 5.5rem;
+        color: #b3b3b3; }
+        #work-with-me-block-1 h1.headline i {
           font-size: 10rem; } }
   #work-with-me-block-1 #accordion {
     padding-top: 3.5rem; }
@@ -6417,22 +6386,14 @@ body {
         font-variant: small-caps; }
     #work-with-me-block-1 #accordion .panel-body .txt-block {
       margin-top: 5rem;
-      font-size: 1.8rem;
-      margin-bottom: 3rem;
-      color: gray; }
-      #work-with-me-block-1 #accordion .panel-body .txt-block button {
-        font-size: 2.2rem;
-        outline: none; }
-      #work-with-me-block-1 #accordion .panel-body .txt-block a {
-        color: orange; }
-        #work-with-me-block-1 #accordion .panel-body .txt-block a:hover {
-          color: #018442; }
+      font-size: 2rem;
+      margin-bottom: 3rem; }
       @media (min-width: 1200px) {
         #work-with-me-block-1 #accordion .panel-body .txt-block {
-          font-size: 2.2rem; } }
+          font-size: 2.5rem; } }
       @media (min-width: 1500px) {
         #work-with-me-block-1 #accordion .panel-body .txt-block {
-          font-size: 2rem;
+          font-size: 3rem;
           padding-left: 5rem; } }
 
 #work-with-me-block-2 .content-wrapper {
@@ -6529,17 +6490,15 @@ body {
   #speaker-page-block-2 .text-right h3 {
     padding-top: 3.5rem;
     padding-bottom: 3rem;
-    font-size: 3.5rem;
-    font-weight: 700;
+    font-size: 3rem;
     color: gray; }
   #speaker-page-block-2 .text-right h5 {
-    font-size: 2.7rem;
-    font-weight: 350;
+    font-size: 2rem;
+    font-weight: 300;
     padding-bottom: 2rem;
     color: gray; }
   #speaker-page-block-2 .text-right li {
-    list-style-type: circle;
-    list-style: none; }
+    list-style-type: circle; }
   @media (min-width: 640px) {
     #speaker-page-block-2 {
       padding-left: 5rem;

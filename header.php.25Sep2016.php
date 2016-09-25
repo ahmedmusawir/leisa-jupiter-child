@@ -17,12 +17,7 @@
 
 </head>
 
-<?php 
-
-	$page_header_image = get_field( 'page_header_image' ); 
-	$header_content = get_field( 'header_content' );
-
-?>
+<?php $page_header_image = get_field( 'page_header_image' ); ?>
 
 <!-- THE HEADER MODAL CODE -->
 	<!-- Modal -->
@@ -231,19 +226,18 @@
 				<div class="text-block-wrapper col-sm-9 col-md-8 col-lg-8">
 					
 					<article class="txt-content center-block">
-						<!-- <h1>You've built a successful business   
+						<h1>You've built a successful business   
 						 from scratch & know money's only 
 						 ONE aspect of creating a wealthy life.</h1>
 
 						 <h3>If you’re still struggling to get what you most want, I can show you how ...</h3>
 						 <br>
 						 <h2>
+						 	<!-- <a class="btn btn-success btn-lg" href="http://www.wealthclinic.com/wealth-flower-opt-in/" target="_blank">FIND OUT MORE</a> -->
 							<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
 							  FIND OUT MORE ...
 							</button>				
-						 </h2> -->
-
-						 <?php echo $header_content; ?>
+						 </h2>
 
 					</article>
 

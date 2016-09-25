@@ -16,6 +16,7 @@ get_header();
 
 ?>
 
+
 <!--=======================================
 =   Da Moose is Loose Work With Me Page   =
 ========================================-->
@@ -25,8 +26,11 @@ get_header();
 
 	<h1 class="headline wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
 	<i class="fa fa-leaf" aria-hidden="true"></i>
-		Helping successful but overworked entrepreneurs slow down, enjoy life way more so they 
-		create a profitable business that fulfills their dreams ...
+		<!-- Helping successful but overworked entrepreneurs slow down, enjoy life way more so they 
+		create a profitable business that fulfills their dreams ... -->
+		You can build a profitable, blissful business.  One that’s aligned with your passions and allows you to slow down and 
+		savour every second of the journey.  And I can show you how…
+
 	</h1>
 
 	<h2 class="text-center">Why Hire Me?  Here’s the Scoop:</h2>
@@ -38,7 +42,7 @@ get_header();
 		    <a class="the-bar" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 			    <div class="panel-heading" role="tab" id="headingOne">
 			      <h4 class="panel-title text-center">
-			          Whom do I work with?
+			          Who are my Clients?
 			      </h4>
 			    </div>
 		    </a>
@@ -46,16 +50,18 @@ get_header();
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						I help high achieving entrepreneurs committed to creating profitable and thriving businesses. 
-						My greatest joy is helping clients break through the blocks that keep you from getting more of 
-						what you want including more joy, time and freedom. After barely coming up for air while earning 
-						my first million, I learned that true success is measured in more than money — it also includes 
-						having freedom with your time and living authentically doing work you enjoy.
+						I help high achieving, heart centered entrepreneurs just like you committed to creating profitable & thriving 
+						businesses.  My greatest joy is helping you break through the blocks that keep you from getting more of what 
+						you want, including more joy, time & freedom.  After barely coming up for air while earning my first million I 
+						learned that true success is measured in more than money - it also includes having freedom with your time 
+						(ie not being a slave to the thing you’ve created) choosing work that gives purpose, joy and allows you to be 
+						the best version of yourself.
+
 					</article>	
 				</div>	
 				<div class="col-md-6 col-lg-6">
 					<article class="img-block">
-						<img class="img-responsive" src="/wp-content/uploads/2016/07/image-2.jpg" alt="">
+						<img class="img-responsive" src="http://www.leisapeterson.com/wp-content/uploads/2016/08/work-with-me-page.jpg" alt="">
 					</article>	
 				</div>					
 		      </div>
@@ -65,7 +71,8 @@ get_header();
 		    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 			    <div class="panel-heading" role="tab" id="headingTwo">
 			      <h4 class="panel-title text-center">
-			          What are my credentials?
+			         What’s my background?
+
 			      </h4>
 			    </div>
 		    </a>
@@ -73,10 +80,17 @@ get_header();
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						What are my credentials? Working with clients I draw upon my nearly 30 years of experience 
-						in finance, business development, entrepreneurship and marketing strategy, along with self-awareness 
-						insights developed through philosophical and religious studies, biological and neurological science, 
-						as well as somatic and yogic body, mind and emotion releasing techniques.
+						Want the scoop on my journey?  When I work with clients I draw upon my nearly 30 years of experience in 
+						finance, business development, entrepreneurship & marketing strategy.  I combine all those business savvy 
+						skills with self-awareness insights developed through philosophical & religious studies, biological & 
+						neurological science as well as somatic & yogic body, mind & emotional releasing techniques.  What this really 
+						means is that I can show you how to integrate everything - the entrepreneur and the individual so you can find 
+						balance within yourself, your business and your life.  And create more prosperity, peace of mind and true 
+						wealth than ever before.  If you want to know more details about me the official bio is over
+						<button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal-bio">
+						here ...
+						</button>	
+
 					</article>	
 				</div>	
 				<div class="col-md-6 col-lg-6">
@@ -99,7 +113,12 @@ get_header();
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						As a life coach for entrepreneurs, I am here to walk alongside you in discovering new ways to create more abundance in your life and business.  Via phone, video calls and email, we'll work together to create a 90 day plan that ensures you are achieving your visionary goals and beyond.						
+						As a life coach for entrepreneurs, I’m here to walk alongside you in discovering new ways to create more abundance in your life and business.  
+						You can dip your toes in by reading several of my free <a href="http://www.leisapeterson.com/books/" title="">eBooks</a> or checking out my 
+						<a href="http://www.wealthclinic.com/podcasts/" target="_blank" title="">podcast</a> or <a href="http://www.wealthclinic.com/blog/" target="_blank" title="">blog</a>. You can join me on a <a href="http://www.leisapeterson.com/retreat/" title="">retreat</a> and spend a weekend 
+						where you’ll learn how to create a life and business of Authentic Abundance &trade;).
+						<br><br>
+						Or you can work with me one-on-one where we’ll work together via phone or video calls to create a customized 90-day plan tailored specifically for you to ensure you’re achieving all your visionary goals. And we do all the mindset work so that achieving them this time - will be better. (Only change is 'different' becomes 'better'.)
 					</article>	
 				</div>	
 				<div class="col-md-6 col-lg-6">
@@ -122,9 +141,14 @@ get_header();
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						I offer several different coaching programs depending upon your needs, timelines and budget.  
-						The best way to determine if we are a good fit is to schedule a complementary session so we 
-						can learn more about each other and see if we are a good fit to work together.
+						I offer a handful of different group and private coaching programs depending upon your need, timeline and budget.  The best way to determine
+						 if we’re a good fit is to schedule a complimentary discovery session so we can learn more about each other and see if we’re perfect together.  
+						 You can schedule that right
+						<button type="button" class="btn btn-link" data-toggle="modal" data-target="#myFooterModal">
+						here ...
+						</button>	
+
+
 					</article>	
 				</div>	
 				<div class="col-md-6 col-lg-6">
@@ -147,11 +171,15 @@ get_header();
 		      <div class="panel-body">
 				<div class="col-md-6 col-lg-6">
 					<article class="txt-block">
-						We’ll go wherever we need to go in our sessions, whether that is addressing 
-						a time management issue, a real-time struggle or working through a new long-term vision. My goal 
-						is to show you how to lead from context, which means listening to your inner voice, the people on 
-						your team and the information around you. You’ll have unlimited email access to me so we can work 
-						on real-time decision making skills. 						
+						We’ll go wherever we need to go in our sessions, whether that’s addressing a time-management issue (so you can actually step 
+						away from the computer screen) a real-time struggle (because every entrepreneur knows things pop up unexpectedly) or work 
+						through a new long-term vision (you have to disengage from the grind long enough to see the path ahead).
+						<br><br>
+						My goal is two-fold.  To start I will guide you through a comprehensive diagnostic assessment of your business to uncover what’s 
+						working, what isn’t and what possibilities exist to elevate your purpose and profits.  Second, I show you how to lead from context, 
+						which means listening to your inner voice, the people on your team and the information around you.  You’ll have unlimited email access 
+						to me so we can work on real-time decision-making skills and your journey will always be supported.
+			
 					</article>	
 				</div>	
 				<div class="col-md-6 col-lg-6">
@@ -278,6 +306,7 @@ get_header();
 
 
 <!--====  End of Da Moose is Loose  ====-->
+
 
 <?php
 

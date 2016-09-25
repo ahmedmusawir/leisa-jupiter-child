@@ -469,11 +469,6 @@ body {
 				&:hover {
 					margin-top: -2rem;
 				}
-
-				a {
-					font-size: 2rem;
-					color: $leisa-green;
-				}
 			}
 
 			figure {
@@ -484,16 +479,9 @@ body {
 			h4 {
 				font-size: 2rem;
 				font-weight: 400;
-				color: black;
+				color: gray;
 				font-family: 'Raleway', sans-serif !important;
 				min-height: 130px;
-
-				a {
-					color: $leisa-green;
-					&:hover {
-						color: orange;
-					}
-				}
 			}
 
 			@media ( min-width: 768px ) and ( max-width: 991px ) {
@@ -823,62 +811,6 @@ body {
 =            Work With Me Page Styles            =
 ================================================*/
 
-#myModal-bio {
-
-
-	.modal-content {
-		border: 3px solid darken( $roy-green, 15% );
-		// border: 3px solid $leisa-green;
-
-		background: url('http://www.leisapeterson.com/wp-content/uploads/2016/08/leisa-modal-900x900.jpg') no-repeat top center;
-		// -webkit-background-size: cover;
-
-	 //  	-moz-background-size: cover;
-
-	 //  	-o-background-size: cover;
-
-	 //  	background-size: cover;		
-		// http://leisa-peterson.devhtmlfive.com/wp-content/uploads/2016/07/block-3-bg-800.jpg
-
-	}
-	.modal-header {
-	    padding: 15px;
-	    border-bottom: 0px solid #e5e5e5;
-	    background: darken( $leisa-green, 10% );
-	    color: white;
-	}
-	.modal-footer {
-	    padding: 15px;
-	    text-align: center;
-	    border-top: 0px solid #e5e5e5;
-
-	    .btn {
-	    	background-color: transparent;
-	    }
-	}
-	.modal-body {
-
-		background: rgba( darken( $roy-green, 30% ), .7 );
-
-		.img-holder {
-			img {
-				width: 30%;
-			}
-		}
-
-		.popup-text {
-
-			color: white;
-
-			h5 {
-				color: white;
-				font-size: 1.5rem;
-			}
-
-		}
-	}	
-}
-
 #work-with-me-block-1 {
 	background: url('/wp-content/uploads/2016/06/block-4-bg.jpg') repeat center center fixed;
 
@@ -887,10 +819,10 @@ body {
 	padding-left: 2rem;
 	padding-right: 2rem;
 
-	.headline {
+	h1.headline {
 		font-style: italic;
-		font-size: 3rem;
-		color: lighten( gray, 15% );
+		font-size: 3.5rem;
+		color: lighten( gray, 20% );
 
 		i {
 			font-size: 7rem;
@@ -941,10 +873,10 @@ body {
 		padding-top: 8rem;
 		padding-bottom: 8rem;
 
-		.headline {
+		h1.headline {
 			font-style: italic;
-			font-size: 3.5rem;
-			color: lighten( gray, 15% );
+			font-size: 5.5rem;
+			color: lighten( gray, 20% );
 
 			i {
 				font-size: 10rem;
@@ -979,27 +911,14 @@ body {
 		.panel-body {
 			.txt-block {
 				margin-top: 5rem;
-				font-size: 1.8rem;
+				font-size: 2rem;
 				margin-bottom: 3rem;
-				color: gray;
-
-				button {
-					font-size: 2.2rem;
-					outline: none;
-				}
-
-				a {
-					color: orange;
-					&:hover {
-						color: $leisa-green;
-					}
-				}
 
 				@media ( min-width: 1200px ) {
-					font-size: 2.2rem;
+					font-size: 2.5rem;
 				}
 				@media ( min-width: 1500px ) {
-					font-size: 2rem;
+					font-size: 3rem;
 					padding-left: 5rem;
 					// padding-top: 7rem;
 				}				
@@ -1180,21 +1099,19 @@ body {
 		h3 {
 			padding-top: 3.5rem;
 			padding-bottom: 3rem;
-			font-size: 3.5rem;
-			font-weight: 700;
+			font-size: 3rem;
 			color: gray;
 		}
 
 		h5 {
-			font-size: 2.7rem;
-			font-weight: 350;
+			font-size: 2rem;
+			font-weight: 300;
 			padding-bottom: 2rem;
 			color: gray;
 		}	
 
 		li {
 			list-style-type: circle;
-			list-style: none;
 			// text-align: right;
 		}			
 	}
@@ -1630,7 +1547,7 @@ body {
 		font-style: italic;
 		padding-top: 5rem;
 		padding-bottom: 5rem;
-		// font-size: 3rem;
+		// font-size: 3.5rem;
 		color: darken( gray, 10% );
 
 		i {
