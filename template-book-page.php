@@ -126,6 +126,42 @@ get_header();
 				</h4>					
 			</article>		
 		</div>
+		<div class="row second-row">
+			<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
+				<figure>
+					<!-- <img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/8-Steps-v2-329x500.png" alt="" data-wow-duration="1s" data-wow-delay="0s"> -->
+				</figure>
+				<h2>
+					<!-- 8 STEPS TO MASTERING THE INNER GAME OF WEALTH  -->
+				</h2>
+				<h4>
+					<!-- <a href="https://sp185.infusionsoft.com/app/form/8stepstomasteringinnergameofwealth" target="_blank"  class="btn btn-success btn-lg">DOWNLOAD NOW</a> -->
+				</h4>					
+			</article>
+			<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
+				<figure>
+					<img class="img-responsive wow zoomIn center-block" src="http://www.leisapeterson.com/wp-content/uploads/2016/12/Business-Flower-Assessment-Tool-2.png" alt="" data-wow-duration="1s" data-wow-delay=".5s">
+				</figure>
+				<h2>
+					THE BUSINESS FLOWER ASSESSMENT TOOL
+				</h2>
+				<h4>
+					<a href="https://wealthclinic.leadpages.co/business-flower-toolkit/"  target="_blank" class="btn btn-success btn-lg">DOWNLOAD NOW</a>
+				</h4>					
+			</article>
+			<article class="download-box-1 col-sm-4 col-md-4 col-lg-4">
+				<figure>
+						<!-- <img class="img-responsive wow zoomIn center-block" src="/wp-content/uploads/2016/07/5-Simple-Steps-307x500.png" alt="" data-wow-duration="1s" data-wow-delay="1s"> -->
+				</figure>
+				<h2>
+					<!-- FIVE SIMPLE STEPS TO CREATING WEALTH, MINDFULLY <br> -->
+					<!-- <span class="label label-warning">Amazon #1 Bestseller</span> -->
+				</h2>
+				<h4>
+					<!-- <a href="http://www.wealthclinic.com/create-wealth-mindfully/"  target="_blank" class="btn btn-success btn-lg">DOWNLOAD NOW</a> -->
+				</h4>					
+			</article>		
+		</div>		
 	</div>
 
 
